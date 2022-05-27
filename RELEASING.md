@@ -9,6 +9,6 @@ assigned to it, we
 
 - recreate the web application's database running
   ```shell script
-  wals-app initdb --doi <DOI> --repos ../../cldf/wals
+  wals-app initdb --doi <DOI> --repos ../../cldf2/wals
   ```
 - deploy the app running `fab deploy:production` via `appconfig`.

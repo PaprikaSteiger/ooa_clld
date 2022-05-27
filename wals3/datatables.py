@@ -9,7 +9,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import WalsLanguage, Genus, Family, Chapter, Feature, Area, Country
+from wals3.models import Genus, Family, Chapter, Feature, Area, Country, OOALanguage
 
 
 class FeatureIdCol(LinkCol):
@@ -134,32 +134,35 @@ class CountriesCol(Col):
         return HTML.ul(
             *[HTML.li(link(self.dt.req, c)) for c in item.countries], class_='unstyled')
 
-    def search(self, qs):
-        return WalsLanguage.countries.any(icontains(Country.name, qs))
+    # def search(self, qs):
+    #     return WalsLanguage.countries.any(icontains(Country.name, qs))
 
 
 class Languages(datatables.Languages):
     def base_query(self, query):
-        return query.join(Genus).join(Family).options(
-            contains_eager(WalsLanguage.genus, Genus.family),
-            subqueryload(WalsLanguage.countries))
-
-    def col_defs(self):
-        return [
-            LinkCol(self, 'name'),
-            IdCol(self, 'id', sTitle='WALS code', sClass='left'),
-            Col(self, 'iso_codes', sTitle='ISO 639-3', model_col=WalsLanguage.iso_codes),
-            LinkCol(self, 'genus', model_col=Genus.name, get_object=lambda i: i.genus),
-            LinkCol(self, 'family',
-                    model_col=Family.name,
-                    get_object=lambda i: i.genus.family),
-            Col(self, 'macroarea',
-                model_col=WalsLanguage.macroarea,
-                choices=get_distinct_values(WalsLanguage.macroarea)),
-            Col(self, 'latitude'),
-            Col(self, 'longitude'),
-            CountriesCol(self, 'countries'),
-        ]
+        return query
+# class Languages(datatables.Languages):
+#     def base_query(self, query):
+#         return query.join(Genus).join(Family).options(
+#             contains_eager(WalsLanguage.genus, Genus.family),
+#             subqueryload(WalsLanguage.countries))
+#
+#     def col_defs(self):
+#         return [
+#             LinkCol(self, 'name'),
+#             IdCol(self, 'id', sTitle='WALS code', sClass='left'),
+#             Col(self, 'iso_codes', sTitle='ISO 639-3', model_col=WalsLanguage.iso_codes),
+#             LinkCol(self, 'genus', model_col=Genus.name, get_object=lambda i: i.genus),
+#             LinkCol(self, 'family',
+#                     model_col=Family.name,
+#                     get_object=lambda i: i.genus.family),
+#             Col(self, 'macroarea',
+#                 model_col=WalsLanguage.macroarea,
+#                 choices=get_distinct_values(WalsLanguage.macroarea)),
+#             Col(self, 'latitude'),
+#             Col(self, 'longitude'),
+#             CountriesCol(self, 'countries'),
+#         ]
 
 
 class ChapterIdCol(Col):

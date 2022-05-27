@@ -1,0 +1,1669 @@
+[33mWARNING[0m values.csv:684:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:685:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:686:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:687:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:688:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:689:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:690:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:691:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:692:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:693:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:694:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:695:Source missing source key: mori1994aguaruna[0m
+[33mWARNING[0m values.csv:754:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:755:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:756:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:757:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:758:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:759:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:760:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:761:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:762:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:763:Source missing source key: overall2007aguaruna[0m
+[33mWARNING[0m values.csv:858:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:859:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:860:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:861:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:862:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:863:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:864:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:865:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:866:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:867:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:868:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:869:Source missing source key: dettmer1989ainu[0m
+[33mWARNING[0m values.csv:1947:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1948:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1949:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1950:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1951:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1952:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1953:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1954:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1955:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1956:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1957:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1958:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1959:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1960:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1961:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1962:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1963:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1964:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1965:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1966:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1967:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1968:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1969:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1970:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1971:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1972:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1973:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1974:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1975:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1976:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1977:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1978:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1979:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1980:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1981:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1982:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1983:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1984:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1985:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1987:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:1989:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2013:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2014:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2015:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2016:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2017:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2018:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2048:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2049:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2050:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2051:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2052:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2053:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2054:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2055:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2056:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2057:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2058:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2059:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2060:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2061:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2062:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2063:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2064:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2065:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2066:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2067:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2096:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2097:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2098:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2126:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2127:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2128:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2129:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2130:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2131:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2132:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2133:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2134:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2136:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2137:Source missing source key: vanlinden_forthc_harakmbut[0m
+[33mWARNING[0m values.csv:2678:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2679:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2680:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2681:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2682:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2683:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2684:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2685:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2686:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2687:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2688:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2689:Source missing source key: curnow1997awapit[0m
+[33mWARNING[0m values.csv:2892:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2893:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2894:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2895:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2896:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2897:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2898:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2899:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2900:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2901:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:2903:Source missing source key: reiter2013aweti[0m
+[33mWARNING[0m values.csv:3282:Source missing source key: bergelson 1993[0m
+[33mWARNING[0m values.csv:5178:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5179:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5180:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5181:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5182:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5183:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5184:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5185:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5186:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5187:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5188:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5189:Source missing source key: rondon1948bororo[0m
+[33mWARNING[0m values.csv:5246:Source missing source key: crowell1979bororoː202-203,216[0m
+[33mWARNING[0m values.csv:5247:Source missing source key: crowell1979bororoː202-203,216[0m
+[33mWARNING[0m values.csv:5248:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5249:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5250:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5251:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5252:Source missing source key: crowell1979bororoː215[0m
+[33mWARNING[0m values.csv:5253:Source missing source key: crowell1979bororoː214[0m
+[33mWARNING[0m values.csv:5254:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5255:Source missing source key: crowell1979bororoː206[0m
+[33mWARNING[0m values.csv:5256:Source missing source key: crowell1979bororoː22[0m
+[33mWARNING[0m values.csv:5257:Source missing source key: crowell1979bororoː22[0m
+[33mWARNING[0m values.csv:6043:Source missing source key: bolanos2016kakua	na[0m
+[33mWARNING[0m values.csv:6102:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6103:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6104:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6105:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6106:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6107:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6108:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6109:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6110:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6111:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6112:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6113:Source missing source key: bolaños2016kakua[0m
+[33mWARNING[0m values.csv:6406:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6407:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6408:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6409:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6410:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6411:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6412:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6413:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:6414:Source missing source key: mithun1995morphologica[0m
+[33mWARNING[0m values.csv:7132:Source missing source key: valenzuela 2017armonia[0m
+[33mWARNING[0m values.csv:7133:Source missing source key: valenzuela 2017armonia[0m
+[33mWARNING[0m values.csv:8653:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8654:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8655:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8656:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8657:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8658:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8659:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8660:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8661:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8662:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8663:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8664:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8665:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8666:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8667:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8668:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:8669:Source missing source key: trillos1996chimila,126-127,126-127[0m
+[33mWARNING[0m values.csv:9672:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9673:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9674:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9675:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9676:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9677:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9678:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9679:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9680:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9681:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9682:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9683:Source missing source key: alvarez 2011chol[0m
+[33mWARNING[0m values.csv:9954:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9955:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9956:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9957:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9958:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9959:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9960:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9961:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9962:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9963:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9964:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:9965:Source missing source key: alexanderbakkerus2005cholon[0m
+[33mWARNING[0m values.csv:13388:Source missing source key: See language report: Paradigm is used with S and P, but surface form differs in S.[0m
+[33mWARNING[0m values.csv:13552:Source missing source key: vuillermet2021pc[0m
+[33mWARNING[0m values.csv:13553:Source missing source key: 385ff.[0m
+[33mWARNING[0m values.csv:13594:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13595:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13597:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13598:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13599:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13600:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13602:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13603:Source missing source key: 348[0m
+[33mWARNING[0m values.csv:13826:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:13827:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:13956:Source missing source key: costasilva2005yaathe:24-26 desa2000yaathe[0m
+[33mWARNING[0m values.csv:13957:Source missing source key: costasilva2005yaathe:24-26 desa2000yaathe[0m
+[33mWARNING[0m values.csv:15002:Source missing source key: moore(p.c.)[0m
+[33mWARNING[0m values.csv:15180:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15181:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15182:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15183:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15184:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15185:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15186:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15187:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15188:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15190:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15191:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15192:Source missing source key: sona2019gaviao[0m
+[33mWARNING[0m values.csv:15878:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15879:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15880:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15881:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15882:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15883:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15884:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15885:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15886:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15887:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15888:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:15889:Source missing source key: queixalos1988sikuani[0m
+[33mWARNING[0m values.csv:18086:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18087:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18088:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18089:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18090:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18091:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18092:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18093:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18094:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18095:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:18097:Source missing source key: derbyshire1979hixkaryana[0m
+[33mWARNING[0m values.csv:19158:Source missing source key: 210[0m
+[33mWARNING[0m values.csv:19159:Source missing source key: 210[0m
+[33mWARNING[0m values.csv:19161:Source missing source key: 210[0m
+[33mWARNING[0m values.csv:19164:Source missing source key: 210[0m
+[33mWARNING[0m values.csv:19370:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19371:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19372:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19373:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19374:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19375:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19376:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19377:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19378:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19379:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19380:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19381:Source missing source key: epps2005hup[0m
+[33mWARNING[0m values.csv:19476:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19477:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19478:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19479:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19480:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19481:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19482:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19483:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19484:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19485:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19487:Source missing source key: pacheco2012ikpeng[0m
+[33mWARNING[0m values.csv:19561:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19562:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19563:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19564:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19565:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19566:Source missing source key: pachêco2001ikpeng[0m
+[33mWARNING[0m values.csv:19798:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19799:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19800:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19801:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19802:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19803:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19804:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19805:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19806:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19807:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19808:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:19809:Source missing source key: cole1982imbabura[0m
+[33mWARNING[0m values.csv:20022:Source missing source key: there are some verbs that treat S as P[0m
+[33mWARNING[0m values.csv:21600:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21601:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21602:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21603:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21604:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21605:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21606:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21607:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:21608:Source missing source key: 224[0m
+[33mWARNING[0m values.csv:22635:Source missing source key: wiesemann1992kaingang[0m
+[33mWARNING[0m values.csv:22636:Source missing source key: wiesemann1992kaingang[0m
+[33mWARNING[0m values.csv:22637:Source missing source key: wiesemann1992kaingang[0m
+[33mWARNING[0m values.csv:22670:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22671:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22672:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22673:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22674:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22675:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22676:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22677:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:22678:Source missing source key: silva2011kaingang[0m
+[33mWARNING[0m values.csv:23154:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23155:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23156:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23157:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23158:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23159:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23160:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23161:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23162:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23163:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23164:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:23165:Source missing source key: crass2005cabeena[0m
+[33mWARNING[0m values.csv:24417:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24418:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24419:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24420:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24421:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24422:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24423:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24424:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:24425:Source missing source key: deazevedo1965kirir[0m
+[33mWARNING[0m values.csv:25936:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25937:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25938:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25939:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25940:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25941:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25942:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25943:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25944:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25945:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25946:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:25947:Source missing source key: vadja2004ket[0m
+[33mWARNING[0m values.csv:26792:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26793:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26794:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26795:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26796:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26797:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26798:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26799:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26800:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26801:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26802:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:26803:Source missing source key: barker1963dictionary[0m
+[33mWARNING[0m values.csv:27220:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27221:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27222:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27223:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27224:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27225:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27226:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27227:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27228:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27229:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27230:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:27231:Source missing source key: heath1998koroboro[0m
+[33mWARNING[0m values.csv:28892:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28893:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28894:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28895:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28896:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28897:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28898:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28899:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28900:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28901:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28902:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:28903:Source missing source key: boas1947kwakitul[0m
+[33mWARNING[0m values.csv:29574:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29575:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29576:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29577:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29578:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29579:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29580:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29581:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29582:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29583:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29584:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:29585:Source missing source key: lionnet2021laal[0m
+[33mWARNING[0m values.csv:31928:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31929:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31930:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31931:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31932:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31933:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31934:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31935:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31936:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31937:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31938:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:31939:Source missing source key: hollenbach2017dictionary[0m
+[33mWARNING[0m values.csv:33728:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:33729:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:33825:Source missing source key: 249ff.[0m
+[33mWARNING[0m values.csv:34994:Source missing source key: 45[0m
+[33mWARNING[0m values.csv:34995:Source missing source key: 45[0m
+[33mWARNING[0m values.csv:34997:Source missing source key: 45[0m
+[33mWARNING[0m values.csv:35000:Source missing source key: 45[0m
+[33mWARNING[0m values.csv:36125:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:36126:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:36127:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:36128:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:36129:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:36130:Source missing source key: pellard2011ogamimiyako[0m
+[33mWARNING[0m values.csv:37238:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37243:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37244:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37245:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37248:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37249:Source missing source key: 261[0m
+[33mWARNING[0m values.csv:37820:Source missing source key: arensen pc. sept 24, 2020[0m
+[33mWARNING[0m values.csv:37880:Source missing source key: reid1990ngan[0m
+[33mWARNING[0m values.csv:38562:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38563:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38564:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38565:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38566:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38567:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38568:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38569:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38570:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38571:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38572:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:38573:Source missing source key: hagmann1977nama[0m
+[33mWARNING[0m values.csv:39492:Source missing source key: willie2000navajo[0m
+[33mWARNING[0m values.csv:39493:Source missing source key: willie2000navajo[0m
+[33mWARNING[0m values.csv:41395:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41396:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41397:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41398:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41399:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41400:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41401:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41402:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41403:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41404:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41405:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41406:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41407:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41408:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41409:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41410:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41411:Source missing source key: jung2021pc,167,169[0m
+[33mWARNING[0m values.csv:41414:Source missing source key: 627[0m
+[33mWARNING[0m values.csv:41415:Source missing source key: 627[0m
+[33mWARNING[0m values.csv:41417:Source missing source key: 627[0m
+[33mWARNING[0m values.csv:41419:Source missing source key: 169[0m
+[33mWARNING[0m values.csv:41420:Source missing source key: 627[0m
+[33mWARNING[0m values.csv:42698:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42699:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42701:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42702:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42703:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42704:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42706:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:42707:Source missing source key: 231[0m
+[33mWARNING[0m values.csv:43270:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43271:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43272:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43273:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43274:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43275:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43276:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43277:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43278:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43279:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43280:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43281:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43378:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43384:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43385:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43395:Source missing source key: schulenburg1894tsimshian[0m
+[33mWARNING[0m values.csv:43768:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43769:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43771:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43772:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43773:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43774:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43776:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:43777:Source missing source key: nakayama2002nuuchahnulth[0m
+[33mWARNING[0m values.csv:44941:Source missing source key: auney2003palikur[0m
+[33mWARNING[0m values.csv:47424:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:47425:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:47724:Source missing source key: silva2005rikbatksa[0m
+[33mWARNING[0m values.csv:47732:Source missing source key: silva2005rikbatksa[0m
+[33mWARNING[0m values.csv:47733:Source missing source key: silva2005rikbatksa[0m
+[33mWARNING[0m values.csv:47734:Source missing source key: silva2005rikbatksa[0m
+[33mWARNING[0m values.csv:47735:Source missing source key: silva2005rikbatksa[0m
+[33mWARNING[0m values.csv:47767:Source missing source key: 227-232[0m
+[33mWARNING[0m values.csv:50783:Source missing source key: valenzuela2017armonía, valenzuela2003shipibokonibo[0m
+[33mWARNING[0m values.csv:50787:Source missing source key: valenzuela2017armonía[0m
+[33mWARNING[0m values.csv:50788:Source missing source key: valenzuela2017armonía[0m
+[33mWARNING[0m values.csv:52900:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52901:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52902:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52903:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52904:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52905:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52906:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52907:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52908:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52909:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52910:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:52911:Source missing source key: warner2016mutsun[0m
+[33mWARNING[0m values.csv:53542:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53543:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53544:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53545:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53546:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53547:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53548:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53549:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53550:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53551:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53552:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53553:Source missing source key: delitzsch1914dictionary[0m
+[33mWARNING[0m values.csv:53736:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53756:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53757:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53758:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53759:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53760:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53761:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53762:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53763:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53764:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53765:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53766:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:53767:Source missing source key: watkins1981cree[0m
+[33mWARNING[0m values.csv:54680:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54681:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54682:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54683:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54684:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54685:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54686:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54687:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54688:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54689:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54690:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54691:Source missing source key: aikhenvald2013tariana[0m
+[33mWARNING[0m values.csv:54984:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54985:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54986:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54987:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54988:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54989:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54990:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54991:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:54992:Source missing source key: garay2010tehuelche[0m
+[33mWARNING[0m values.csv:55856:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55857:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55858:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55859:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55860:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55861:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55862:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55863:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:55867:Source missing source key: 155[0m
+[33mWARNING[0m values.csv:56797:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56798:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56799:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56800:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56801:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56802:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56860:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56861:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56862:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56863:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56864:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56865:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56866:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56868:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56869:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56870:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56871:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56872:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56873:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56874:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56876:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:56877:Source missing source key: ojeda1998semantics[0m
+[33mWARNING[0m values.csv:59320:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59321:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59322:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59323:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59324:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59325:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59326:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59327:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59328:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59329:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59330:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59331:Source missing source key: oliverio1996grammar[0m
+[33mWARNING[0m values.csv:59816:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59817:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59818:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59819:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59820:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59821:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59822:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59823:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59824:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59825:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:59827:Source missing source key: olawsky2011urarina[0m
+[33mWARNING[0m values.csv:60840:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60841:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60842:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60843:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60844:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60845:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60846:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:60847:Source missing source key: tracy1974wapishana[0m
+[33mWARNING[0m values.csv:62316:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62317:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62318:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62319:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62320:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62321:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62322:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62323:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62324:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62325:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62326:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:62327:Source missing source key: captain2005diccionario[0m
+[33mWARNING[0m values.csv:63386:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63387:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63388:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63389:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63390:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63391:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63392:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63393:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63394:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63395:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63396:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63397:Source missing source key: teeter1954wiyot[0m
+[33mWARNING[0m values.csv:63398:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63399:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63400:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63401:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63402:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63403:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63404:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63405:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63406:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63407:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63474:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:63475:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:63540:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63541:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63542:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63543:Source missing source key: teeter (1964[0m
+[33mWARNING[0m values.csv:63823:Source missing source key: word for ʼthingʼ, doubtfully word for ʼyoungest childʼ, 'noʼ, surprise interjection, items derived from ʼthingʼ and ʼnoʼ[0m
+[33mWARNING[0m values.csv:63824:Source missing source key: word for ʼthingʼ, doubtfully word for ʼyoungest childʼ, 'noʼ, surprise interjection, items derived from ʼthingʼ and ʼnoʼ[0m
+[33mWARNING[0m values.csv:66832:Source missing source key: bohnemeyer2001verbclasses[0m
+[33mWARNING[0m values.csv:66833:Source missing source key: vinogradov2018tam[0m
+[33mWARNING[0m values.csv:66834:Source missing source key: vinogradov2018tam[0m
+[33mWARNING[0m values.csv:66835:Source missing source key: bohnemeyer2001verbclasses[0m
+[33mWARNING[0m values.csv:66836:Source missing source key: vinogradov2018tam[0m
+[33mWARNING[0m values.csv:66837:Source missing source key: bohnemeyer2001verbclasses[0m
+[33mWARNING[0m values.csv:66838:Source missing source key: bohnemeyer2001verbclasses[0m
+[33mWARNING[0m values.csv:66839:Source missing source key: vinogradov2018tam[0m
+[33mWARNING[0m values.csv:66840:Source missing source key: briceño2007verbos[0m
+[33mWARNING[0m values.csv:67336:Source missing source key: mithun, m., beyond the structural domain[0m
+[33mWARNING[0m values.csv:67734:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67735:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67736:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67737:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67738:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67739:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67740:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67741:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67742:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67743:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67745:Source missing source key: vangijn2006yuracare[0m
+[33mWARNING[0m values.csv:67880:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67881:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67882:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67883:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67884:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67885:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67886:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67887:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67888:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67889:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67890:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67891:Source missing source key: language_project_yurok[0m
+[33mWARNING[0m values.csv:67968:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m values.csv:67969:Source missing source key: pittman1988ethnologue[0m
+[33mWARNING[0m codes.csv:674:1 CodeID: invalid lexical value for string: S>V_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:675:1 CodeID: invalid lexical value for string: V>S_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:677:1 CodeID: invalid lexical value for string: S>O_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:678:1 CodeID: invalid lexical value for string: O>S_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:680:1 CodeID: invalid lexical value for string: V>O_WordOrder.01d[0m
+[33mWARNING[0m codes.csv:681:1 CodeID: invalid lexical value for string: O>V_WordOrder.01d[0m
+[33mWARNING[0m codes.csv:408 duplicate primary key: a_PossInd.11[0m
+[33mWARNING[0m codes.csv:409 duplicate primary key: p_PossInd.11[0m
+[33mWARNING[0m codes.csv:674:1 CodeID: invalid lexical value for string: S>V_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:675:1 CodeID: invalid lexical value for string: V>S_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:677:1 CodeID: invalid lexical value for string: S>O_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:678:1 CodeID: invalid lexical value for string: O>S_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:680:1 CodeID: invalid lexical value for string: V>O_WordOrder.01d[0m
+[33mWARNING[0m codes.csv:681:1 CodeID: invalid lexical value for string: O>V_WordOrder.01d[0m
+[33mWARNING[0m values.csv:202 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:203 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:204 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:457 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:630 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:631 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:632 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:757 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:844 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:845 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:846 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1058 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1059 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1060 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1272 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1273 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1274 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1486 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1487 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1488 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1700 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1701 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1702 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1914 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:1916 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2251 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2257 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2342 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2343 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2344 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2383 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2556 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2557 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2558 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2770 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2771 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2772 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2899 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2984 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2985 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:2986 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3198 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3199 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3200 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3412 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3413 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3414 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3626 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3627 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:3628 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4054 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4055 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4056 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4091 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4095 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4268 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4269 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4270 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4482 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4483 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4484 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4523 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4696 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4697 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4698 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4910 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4911 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4912 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:4951 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5070 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5124 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5125 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5126 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5338 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5339 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5340 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5552 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5553 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5554 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5766 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5767 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5768 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5980 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5981 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:5982 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6021 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6194 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6195 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6196 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6408 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6409 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6410 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6622 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6623 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6624 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6836 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6837 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:6838 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7050 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7051 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7052 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7091 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7301 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7305 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7478 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7480 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7692 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7693 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7694 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7906 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7907 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:7908 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8120 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8121 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8122 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8334 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8335 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8336 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8375 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8548 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8550 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8976 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8977 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:8978 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9190 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9191 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9192 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9618 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9619 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9620 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9832 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9833 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:9834 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10046 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10047 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10048 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10474 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10475 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10476 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10688 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10689 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10690 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10725 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10729 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10902 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10903 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:10904 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11116 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11117 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11330 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11331 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11332 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11371 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11544 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11545 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11546 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11972 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:11974 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12009 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12013 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12400 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12401 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12402 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12614 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12615 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12616 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12828 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12829 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12830 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:12869 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13042 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13043 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13044 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13256 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13257 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13258 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13297 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13470 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13471 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13472 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13684 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13685 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13686 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13725 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13898 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13899 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13900 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:13939 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14112 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14113 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14114 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14153 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14540 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14541 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14542 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14581 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14754 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14755 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14756 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14968 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14969 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:14970 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15182 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15183 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15184 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15223 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15396 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15397 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15398 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15437 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15651 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15824 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15825 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15826 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15861 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:15865 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16038 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16039 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16040 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16252 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16253 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16254 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16466 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16467 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16468 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16503 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16507 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16680 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16682 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16721 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16894 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16895 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:16896 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17108 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17109 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17110 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17322 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17324 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17536 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17537 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17538 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17750 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17751 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17752 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17964 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17965 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:17966 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18093 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18178 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18179 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18180 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18392 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18393 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18394 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18606 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18607 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18608 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18643 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18647 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18820 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18821 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:18822 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19034 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19035 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19036 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19163 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19462 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19463 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19464 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19503 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19676 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19678 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19890 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19891 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:19892 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20019 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20104 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20106 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20204 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20318 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20319 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20320 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20532 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20534 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20573 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20746 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20747 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20748 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20787 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20960 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20961 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:20962 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21001 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21174 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21175 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21176 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21215 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21388 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21389 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21390 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21425 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21429 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21602 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21603 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21604 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21643 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:21857 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22244 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22245 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22246 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22458 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22459 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22460 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22672 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22673 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22674 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22709 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22713 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22886 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22887 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:22888 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23100 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23101 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23102 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23314 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23315 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23316 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23528 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23529 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23530 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23742 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23743 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23744 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23956 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23957 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:23958 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24211 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24384 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24385 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24386 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24598 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24600 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24812 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24813 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24814 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24850 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:24853 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25240 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25241 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25242 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25495 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25882 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25883 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25884 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:25923 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26096 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26097 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26098 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26310 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26311 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26312 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26351 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26524 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26525 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26526 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26565 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26952 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26953 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26954 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:26993 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27166 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27167 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27168 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27380 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27381 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27382 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27557 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27594 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27595 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27596 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27635 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27808 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27809 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:27810 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28022 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28023 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28024 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28063 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28236 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28237 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28238 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28450 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28451 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28452 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28664 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28665 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28666 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28878 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28879 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:28880 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29092 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29093 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29094 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29133 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29520 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29521 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29522 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29948 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29949 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29950 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:29989 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30162 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30163 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30164 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30376 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30377 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30378 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30417 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30590 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30591 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30592 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30804 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30805 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:30806 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31018 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31019 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31020 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31059 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31446 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31447 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31448 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31487 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31660 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31661 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31662 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31789 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31874 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31875 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:31876 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32088 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32089 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32090 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32302 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32303 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32304 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32402 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32516 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32517 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32518 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32730 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32732 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32944 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32945 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32946 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:32985 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33199 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33586 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33587 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33588 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33800 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33801 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:33802 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34014 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34015 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34016 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34228 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34230 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34269 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34442 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34443 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34444 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34656 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34657 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34658 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34870 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34871 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:34872 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35084 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35085 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35086 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35298 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35299 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35300 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35940 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35941 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:35942 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36582 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36583 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36584 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36796 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36797 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36798 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36919 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:36925 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37010 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37011 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37012 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37224 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37226 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37438 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37439 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37440 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37652 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37653 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37654 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37866 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37867 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37868 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:37907 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38121 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38294 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38295 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38296 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38335 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38722 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38723 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38724 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38760 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38851 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38936 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38937 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:38938 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39150 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39151 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39152 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39364 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39365 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39366 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39405 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39578 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39579 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39580 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39792 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39793 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:39794 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40006 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40007 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40008 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40220 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40221 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40222 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40434 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40435 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40436 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40648 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40649 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40650 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40689 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40862 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40864 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:40903 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41076 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41077 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41078 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41290 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41292 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41419 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41504 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41505 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41506 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41718 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41719 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41720 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41932 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41933 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41934 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:41973 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42146 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42147 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42148 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42187 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42360 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42361 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42362 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42401 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42788 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42790 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:42829 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43002 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43003 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43004 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43043 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43216 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43217 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43218 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43430 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43431 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43432 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43471 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43644 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43646 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43858 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43859 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:43860 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44072 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44073 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44074 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44286 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44287 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44288 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44500 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44502 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44714 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44715 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44716 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44755 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44928 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44929 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44930 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:44969 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45142 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45143 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45144 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45183 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45356 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45357 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45358 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45397 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45570 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45571 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45572 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45784 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45785 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45786 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45998 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:45999 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46000 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46141 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46212 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46213 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46214 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46426 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46427 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46428 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46854 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46855 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:46856 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47068 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47069 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47070 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47282 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47283 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47284 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47496 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47497 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47498 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47710 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47711 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47712 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47924 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47925 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:47926 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48138 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48139 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48140 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48179 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48352 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48353 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48354 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48380 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48566 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48567 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48568 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48780 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48781 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48782 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48994 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48995 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:48996 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49057 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49208 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49209 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49210 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49422 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49423 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49424 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49636 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49637 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49638 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49850 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49851 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49852 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:49891 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50064 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50065 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50066 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50278 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50279 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50280 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50492 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50493 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50494 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50621 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50706 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50707 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50708 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50920 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50921 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:50922 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51134 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51135 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51136 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51348 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51349 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51350 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51389 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51603 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51776 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51777 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51778 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51990 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51991 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:51992 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52031 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52204 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52205 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52206 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52418 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52419 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52420 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52632 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52633 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52634 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:52673 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53274 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53275 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53276 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53488 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53489 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53490 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53702 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53703 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:53704 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54130 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54131 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54132 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54344 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54345 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54346 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54558 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54559 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54560 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:54681 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55200 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55201 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55202 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55414 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55415 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55416 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55455 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55669 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55842 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55843 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:55844 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56056 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56057 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56058 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56270 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56271 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56272 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56311 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56484 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56485 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56486 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56525 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56613 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56698 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56699 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:56700 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57126 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57127 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57128 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57340 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57341 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57342 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57381 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57595 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57768 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57769 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57770 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57868 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57982 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57983 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:57984 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58196 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58197 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58198 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58237 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58410 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58411 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58412 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58451 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58624 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58626 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58838 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58839 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:58840 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59052 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59053 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59054 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59266 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59267 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59268 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59366 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59480 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59481 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59482 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59694 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59695 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59696 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59817 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59908 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59909 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59910 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:59949 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60122 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60123 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60124 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60163 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60550 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60551 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60552 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60978 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60979 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:60980 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61192 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61193 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61194 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61406 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61407 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61408 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61620 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61621 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61622 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:61661 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62048 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62049 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62050 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62262 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62263 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62264 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62303 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62476 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62477 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62478 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:62731 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63118 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63119 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63120 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63159 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63332 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63333 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63334 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63373 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63974 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:63976 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64188 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64189 Key `O>S_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64190 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64402 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64403 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64404 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64657 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64830 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64831 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:64832 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65044 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65045 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65046 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65258 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65259 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65260 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65472 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65473 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65474 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65686 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65687 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65688 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65900 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65901 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:65902 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66114 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66116 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66328 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66330 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66583 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66756 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66757 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66758 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:66797 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67011 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67184 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67185 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67186 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67225 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67398 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67399 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67400 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67612 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67613 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67614 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67826 Key `V>S_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67828 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:67867 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68254 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68255 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68256 Key `V>O_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68295 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68357 Key `UNKNOWN` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68468 Key `S>V_WordOrder.01b` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68469 Key `S>O_WordOrder.01c` not found in table codes.csv[0m
+[33mWARNING[0m values.csv:68470 Key `O>V_WordOrder.01d` not found in table codes.csv[0m
+[33mWARNING[0m codes.csv:674:1 CodeID: invalid lexical value for string: S>V_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:675:1 CodeID: invalid lexical value for string: V>S_WordOrder.01b[0m
+[33mWARNING[0m codes.csv:677:1 CodeID: invalid lexical value for string: S>O_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:678:1 CodeID: invalid lexical value for string: O>S_WordOrder.01c[0m
+[33mWARNING[0m codes.csv:680:1 CodeID: invalid lexical value for string: V>O_WordOrder.01d[0m
+[33mWARNING[0m codes.csv:681:1 CodeID: invalid lexical value for string: O>V_WordOrder.01d[0m

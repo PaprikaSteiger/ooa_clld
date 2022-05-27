@@ -14,13 +14,10 @@ $(document).ready(function() {
   </script>
 </%def>
 
-<h2>Welcome to WALS Online</h2>
+<h2>THIS IS NOW A OOA APP</h2>
 
 <p class="lead">
-The World Atlas of Language Structures (WALS) is a large database of structural
-(phonological, grammatical, lexical) properties of languages gathered from descriptive
-materials (such as reference grammars) by a team of 55 authors (many of them the
-leading authorities on the subject).
+THIS IS NOW A OOA APP
 </p>
 <p>
   The first version of WALS was published as a book with CD-ROM in 2005 by

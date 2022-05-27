@@ -5,6 +5,7 @@ from sqlalchemy import true
 from sqlalchemy.orm import joinedload
 from pyramid.httpexceptions import HTTPNotFound, HTTPMovedPermanently
 from pyramid.config import Configurator
+from pyramid.response import Response
 
 from clldutils import svg
 from clld.interfaces import (
@@ -17,7 +18,7 @@ from clld.web.app import CtxFactoryQuery
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source
 
 from wals3.adapters import Matrix
-from wals3.models import Family, Country, WalsLanguage, Genus
+from wals3.models import Family, Country, Genus, OOALanguage
 from wals3.interfaces import IFamily, ICountry, IGenus
 
 COLORS = [
@@ -96,18 +97,19 @@ class WalsCtxFactoryQuery(CtxFactoryQuery):
 
 
 def sample_factory(req):
-    try:
-        col = {
-            '100': WalsLanguage.samples_100,
-            '200': WalsLanguage.samples_200}[req.matchdict['count']]
-    except KeyError:
-        raise HTTPNotFound()
-
+#     try:
+#         col = {
+#             '100': WalsLanguage.samples_100,
+#             '200': WalsLanguage.samples_200}[req.matchdict['count']]
+#     except KeyError:
+#         raise HTTPNotFound()
+#
     class Sample(object):
         name = '%s-language sample' % req.matchdict['count']
-        languages = req.db.query(WalsLanguage).filter(col == true())\
-            .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
-            .order_by(WalsLanguage.name)
+        languages = req.db.query(OOALanguage)\
+            # .filter(col == true())\
+            # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
+            # .order_by(WalsLanguage.name)
 
         def __json__(self, req):
             return {'name': self.name, 'languages': list(self.languages)}
@@ -123,7 +125,7 @@ class WalsIcon(Icon):
 def main(global_config, **settings):
     """return a Pyramid WSGI application."""
     settings['route_patterns'] = {
-        'languages': r'/languoid',
+        'languages': r'/ooalanguages',
         'language': r'/languoid/lect/wals_code_{id:[^/\.]+}',
         'source': r'/refdb/record/{id:[^/\.]+}',
         'sources': '/refdb',
@@ -158,6 +160,7 @@ def main(global_config, **settings):
     config.register_resource('family', Family, IFamily, with_index=True)
     config.register_resource('genus', Genus, IGenus, with_index=True)
     config.register_resource('country', Country, ICountry)
+    config.register_resource('ooalanguage', OOALanguage, ILanguage)
 
     config.add_route(
         'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)
@@ -255,6 +258,13 @@ def main(global_config, **settings):
     config.add_301('/supplement/8', lambda req: req.route_url('contribution', id='s8'))
     config.add_301('/supplement/9', lambda req: req.route_url('contribution', id='s9'))
 
+    def notfound(request):
+        print(request)
+        return Response('Not Found', status='404 Not Found')
+
+
+    config.add_notfound_view(notfound)
+
     for pattern in ['/refdb/', '/refdb/record', '/refdb/record/', '/refdb/search']:
         config.add_301(pattern, lambda req: req.route_url('sources'))
 
@@ -263,6 +273,7 @@ def main(global_config, **settings):
 
     config.add_route('olac.source', '/refdb_oai')
     config.add_route('languoids', '/languoids')
+    config.add_route('ooalanguages', '/ooalanguages')
 
     config.register_download(
         Matrix(Language, 'wals3', description="Feature values CSV"))

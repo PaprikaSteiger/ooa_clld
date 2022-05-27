@@ -15,7 +15,7 @@ from clld.web.util.multiselect import MultiSelect, CombinationMultiSelect
 from clld.web.icon import ICON_MAP
 
 import wals3
-from wals3.models import Feature, WalsLanguage, Genus
+from wals3.models import Feature, Genus, OOALanguage
 
 
 class LanguoidSelect(MultiSelect):
@@ -41,8 +41,13 @@ class LanguoidSelect(MultiSelect):
 
 
 def language_index_html(context=None, request=None, **kw):
-    return {'ms': LanguoidSelect(
-        request, 'languoid', 'languoid', url=request.route_url('languoids'))}
+    data = [l for l in DBSession.query(OOALanguage)]
+    #return dict(datapoints=data)
+    return {
+        'ms' : MultiSelect(request, "languages", 'languages')
+    }
+    # return {'ms': LanguoidSelect(
+    #     request, 'languoid', 'languoid', url=request.route_url('languoids'))}
 
 
 def dataset_detail_html(context=None, request=None, **kw):
@@ -50,7 +55,7 @@ def dataset_detail_html(context=None, request=None, **kw):
         'stats': context.get_stats(
             [rsc for rsc in RESOURCES if rsc.name
              in 'language contributor valueset'.split()]),
-        'example_contribution': Contribution.get('1'),
+        #'example_contribution': Contribution.get('1'),
         'citation': get_adapter(IRepresentation, context, request, ext='md.txt')}
 
 

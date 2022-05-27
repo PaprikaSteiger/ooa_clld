@@ -15,8 +15,10 @@ from clld.db.models.common import (
     Value, DomainElement, ValueSet, Language, Parameter, LanguageIdentifier,
 )
 
-from wals3.models import WalsLanguage, Genus
+from wals3.models import Genus, OOALanguage
 
+# TODO: DOcumentation
+# https://muthukadan.net/docs/zca.html#adapters
 
 class GeoJsonFeature(GeoJsonParameter):
     def feature_iterator(self, ctx, req):
@@ -61,6 +63,7 @@ class Matrix(CsvDump):
     def _parameters(self):
         return DBSession.query(Parameter).order_by(Parameter.pk).all()
 
+    #which object to return from database
     def query(self, req):
         self._domainelements = DBSession.query(DomainElement).all()
         return DBSession.query(Language)\
@@ -76,7 +79,7 @@ class Matrix(CsvDump):
             self._fields = [f[0] for f in self.md_fields]
             self._fields.extend(['{0.id} {0.name}'.format(p) for p in self._parameters])
         return self._fields
-
+    # displays one row from query
     def row(self, req, fp, item, index):  # pragma: no cover
         values = {
             '{0.id} {0.name}'.format(v.parameter):
@@ -119,23 +122,45 @@ class LanguagesTab(Index):
     send_mimetype = str('text/plain')
 
     def render(self, ctx, req):
+        # fields = [
+        #     ('ooa code', lambda l: l.id),
+        #     ('glottocode', lambda l: l.glottocode),
+        #     ('name', lambda l: l.name),
+        #     ('latitude', lambda l: l.latitude),
+        #     ('longitude', lambda l: l.longitude),
+        #     ('macroarea', lambda l: l.macroarea),
+        #     ('family', lambda l: l.family_name),
+        #     ('sample 100', lambda l: l.samples_100),
+        #     ('sample 200', lambda l: l.samples_200),
+        # glottocode = Column(Unicode)
+        # macroarea = Column(Unicode)
+        # iso = Column(Unicode)
+        # family_id = Column(Unicode)
+        # language_id = Column(Unicode)
+        # family_name = Column(Unicode)
+        # balanced = Column(Unicode)
+        # isolates = Column(Unicode)
+        # american = Column(Unicode)
+        # world = Column(Unicode)
+        # north_america = Column(Unicode)
+        # noun = Column(Unicode)
+        # ]
         fields = [
-            ('wals code', lambda l: l.id),
+            #('wals code', lambda l: l.id),
             ('glottocode', lambda l: l.glottocode),
             ('name', lambda l: l.name),
             ('latitude', lambda l: l.latitude),
             ('longitude', lambda l: l.longitude),
             ('macroarea', lambda l: l.macroarea),
-            ('genus', lambda l: l.genus.name),
-            ('family', lambda l: l.genus.family.name),
-            ('sample 100', lambda l: l.samples_100),
-            ('sample 200', lambda l: l.samples_200),
+            #('genus', lambda l: l.genus.name),
+            #('family', lambda l: l.genus.family.name),
+            #('sample 100', lambda l: l.samples_100),
+            #('sample 200', lambda l: l.samples_200),
         ]
         lines = [[f[0] for f in fields]]
-        for lang in DBSession.query(Language).options(
-            joinedload(WalsLanguage.genus).joinedload(Genus.family),
-            joinedload(Language.languageidentifier).joinedload(LanguageIdentifier.identifier)
-        ):
+        for lang in DBSession.query(OOALanguage):#.options(
+            # joinedload(WalsLanguage.genus).joinedload(Genus.family),
+            # joinedload(Language.languageidentifier).joinedload(LanguageIdentifier.identifier))\:
             lines.append([f[1](lang) for f in fields])
         return '\n'.join('\t'.join(['%s' % l for l in line]) for line in lines)
 

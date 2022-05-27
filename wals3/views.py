@@ -8,8 +8,18 @@ from clld.db.util import icontains
 from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institution
 from clld.util import summary
 
-from wals3.models import Family, Genus, Feature, WalsLanguage
+from wals3.models import Family, Genus, Feature, OOALanguage
 from wals3.util import LanguoidSelect
+
+
+@view_config(route_name='ooalanguages', renderer='json')
+def ooalanguages(request):
+    id = request.params.get('id')
+    model = OOALanguage
+    obj = model.get(id, default=None)
+    query = DBSession.query(Language).filter(icontains(OOALanguage.id, id))
+    res = [l for l in query]
+    return dict(results=res, context={}, more=False)
 
 
 @view_config(route_name='languoids', renderer='json')

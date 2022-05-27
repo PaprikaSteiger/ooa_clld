@@ -37,6 +37,7 @@ nosetests.xml
 .pydevproject
 .idea
 .eggs
+venv
 
 # Mac OS
 *.DS_Store

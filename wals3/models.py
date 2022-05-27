@@ -15,6 +15,7 @@ from clld.db.meta import Base, CustomModelMixin
 from clld.db.models.common import (
     Language,
     Parameter,
+    Value,
     Contribution,
     IdNameDescriptionMixin,
     ValueSet,
@@ -62,24 +63,41 @@ class Area(Base, IdNameDescriptionMixin):
 # specialized common mapper classes
 # ----------------------------------------------------------------------------
 @implementer(interfaces.ILanguage)
-class WalsLanguage(CustomModelMixin, Language):
-    pk = Column(Integer, ForeignKey('language.pk'), primary_key=True)
-
-    ascii_name = Column(String)
-    genus_pk = Column(Integer, ForeignKey('genus.pk'))
-    samples_100 = Column(Boolean, default=False)
-    samples_200 = Column(Boolean, default=False)
-
+class OOALanguage(CustomModelMixin, Language):
+    pk = Column(Unicode, ForeignKey('language.pk'), primary_key=True)
+    glottocode = Column(Unicode)
     macroarea = Column(Unicode)
-    iso_codes = Column(String)
-    genus = relationship(Genus, backref=backref("languages", order_by="Language.name"))
+    iso = Column(Unicode)
+    family_id = Column(Unicode)
+    language_id = Column(Unicode)
+    family_name = Column(Unicode)
+    balanced = Column(Unicode)
+    isolates = Column(Unicode)
+    american = Column(Unicode)
+    world = Column(Unicode)
+    north_america = Column(Unicode)
+    noun = Column(Unicode)
 
-    def __rdf__(self, request):
-        yield 'skos:broader', request.resource_url(self.genus)
-        if self.macroarea:
-            yield 'dcterms:spatial', self.macroarea
-        for country in self.countries:
-            yield 'dcterms:spatial', 'http://www.geonames.org/countries/%s/' % country.id
+
+# @implementer(interfaces.ILanguage)
+# class WalsLanguage(CustomModelMixin, Language):
+#     pk = Column(Integer, ForeignKey('language.pk'), primary_key=True)
+#
+#     ascii_name = Column(String)
+#     genus_pk = Column(Integer, ForeignKey('genus.pk'))
+#     samples_100 = Column(Boolean, default=False)
+#     samples_200 = Column(Boolean, default=False)
+#
+#     macroarea = Column(Unicode)
+#     iso_codes = Column(String)
+#     genus = relationship(Genus, backref=backref("languages", order_by="Language.name"))
+#
+#     def __rdf__(self, request):
+#         yield 'skos:broader', request.resource_url(self.genus)
+#         if self.macroarea:
+#             yield 'dcterms:spatial', self.macroarea
+#         for country in self.countries:
+#             yield 'dcterms:spatial', 'http://www.geonames.org/countries/%s/' % country.id
 
 
 @implementer(interfaces.IContribution)
@@ -102,6 +120,19 @@ class Chapter(CustomModelMixin, Contribution):
 
 
 @implementer(interfaces.IParameter)
+class OOAParameter(CustomModelMixin, Parameter):
+
+    """TODO"""
+
+    #__table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
+
+    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
+    #parameter_id = Column(Unicode)
+    question = Column(Unicode)
+    datatype = Column(Unicode)
+    visualization = Column(Unicode)
+
+@implementer(interfaces.IParameter)
 class Feature(CustomModelMixin, Parameter):
 
     """Parameters in WALS are called feature. They are always related to one chapter."""
@@ -118,3 +149,22 @@ class Feature(CustomModelMixin, Parameter):
     def __rdf__(self, request):
         if self.chapter.area.dbpedia_url:
             yield 'dcterms:subject', self.chapter.area.dbpedia_url
+
+@implementer(interfaces.IValue)
+class OOAValue(CustomModelMixin, Value):
+    pk = Column(Unicode, ForeignKey('value.pk'), primary_key=True)
+
+    language_id = Column(Unicode, ForeignKey('language.pk'))
+    parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
+    code_id = Column(Unicode, ForeignKey('domainelement.pk'))
+    value = Column(Unicode)
+    remark = Column(Unicode)
+    source = Column(Unicode, ForeignKey('source.pk'))
+    coder = Column(Unicode)
+
+# #@implementer(interfaces.)
+# class OOACode(CustomModelMixin, ):
+#     pk = Column(Unicode, ForeignKey(''), primary_key=True)
+#     parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
+#     description = Column(Unicode)
+#     visualization = Column(Unicode)
