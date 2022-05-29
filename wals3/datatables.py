@@ -141,6 +141,13 @@ class CountriesCol(Col):
 class Languages(datatables.Languages):
     def base_query(self, query):
         return query
+
+    def col_defs(self):
+        return [
+            IdCol(self, 'id', sTitle='glottocode', sClass='left'),
+            Col(self, 'macroarea', model_col=OOALanguage.macroarea),
+            Col(self, 'family_id', model_col=OOALanguage.family_id)
+        ]
 # class Languages(datatables.Languages):
 #     def base_query(self, query):
 #         return query.join(Genus).join(Family).options(

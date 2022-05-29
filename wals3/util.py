@@ -41,10 +41,10 @@ class LanguoidSelect(MultiSelect):
 
 
 def language_index_html(context=None, request=None, **kw):
-    data = [l for l in DBSession.query(OOALanguage)]
+    data = [l for l in DBSession.query(OOALanguage)][:10]
     #return dict(datapoints=data)
     return {
-        'ms' : MultiSelect(request, "languages", 'languages')
+        'ms' : MultiSelect(request, "languages", 'languages', collection=data)
     }
     # return {'ms': LanguoidSelect(
     #     request, 'languoid', 'languoid', url=request.route_url('languoids'))}

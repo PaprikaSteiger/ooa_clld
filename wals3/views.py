@@ -17,7 +17,7 @@ def ooalanguages(request):
     id = request.params.get('id')
     model = OOALanguage
     obj = model.get(id, default=None)
-    query = DBSession.query(Language).filter(icontains(OOALanguage.id, id))
+    query = DBSession.query(OOALanguage).filter(icontains(OOALanguage.id, id))
     res = [l for l in query]
     return dict(results=res, context={}, more=False)
 

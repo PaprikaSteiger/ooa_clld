@@ -12,7 +12,6 @@ ${lib.languages_contextnav()}
 
 <div class="span6 pull-right well well-small">
     <p>
-        THIS IS OOA NOW
         Search a languoid by name. Matching names are formatted in bold font for
         <b>languages</b>, in italics for <i>genera</i> and underlined for <u>families</u>.
         This search does also take alternative names into account.
