@@ -18,7 +18,7 @@ from clld.web.app import CtxFactoryQuery
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source
 
 from wals3.adapters import Matrix
-from wals3.models import Family, Country, Genus, OOALanguage
+from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter
 from wals3.interfaces import IFamily, ICountry, IGenus
 
 COLORS = [
@@ -161,6 +161,7 @@ def main(global_config, **settings):
     config.register_resource('genus', Genus, IGenus, with_index=True)
     config.register_resource('country', Country, ICountry)
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
+    config.register_resource('ooaparameter', OOAParameter, IParameter)
 
     config.add_route(
         'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)

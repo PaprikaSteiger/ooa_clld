@@ -9,23 +9,23 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import Genus, Family, Chapter, Feature, Area, Country, OOALanguage
+from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter
 
 
-class FeatureIdCol(LinkCol):
-    def get_attrs(self, item):
-        return {'label': item.id}
-
-    def order(self):
-        return Feature.contribution_pk, Feature.ordinal_qualifier
-
-
-class FeatureIdCol2(FeatureIdCol):
-    def get_attrs(self, item):
-        return {'label': item.valueset.parameter.id}
-
-    def get_obj(self, item):
-        return item.valueset.parameter
+# class FeatureIdCol(LinkCol):
+#     def get_attrs(self, item):
+#         return {'label': item.id}
+#
+#     def order(self):
+#         return Feature.contribution_pk, Feature.ordinal_qualifier
+#
+#
+# class FeatureIdCol2(FeatureIdCol):
+#     def get_attrs(self, item):
+#         return {'label': item.valueset.parameter.id}
+#
+#     def get_obj(self, item):
+#         return item.valueset.parameter
 
 
 class AreaCol(Col):
@@ -112,18 +112,26 @@ class FeatureAreaCol(_AreaCol):
 
 
 class Features(datatables.Parameters):
-    def base_query(self, query):
-        return query.join(Chapter).join(Area)\
-            .options(contains_eager(Feature.chapter, Chapter.area))
+    # def base_query(self, query):
+    #     return query.join(Chapter).join(Area)\
+    #         .options(contains_eager(Feature.chapter, Chapter.area))
 
+    # def col_defs(self):
+    #     return [
+    #         FeatureIdCol(self, 'id', sClass='right'),
+    #         LinkCol(self, 'name'),
+    #         ContributorsCol(self, 'Authors', bSearchable=False, bSortable=False),
+    #         FeatureAreaCol(self, 'area'),
+    #         Col(self, 'Languages', model_col=Feature.representation),
+    #         DetailsRowLinkCol(self, 'd', button_text='Values'),
+    #     ]
     def col_defs(self):
         return [
-            FeatureIdCol(self, 'id', sClass='right'),
-            LinkCol(self, 'name'),
-            ContributorsCol(self, 'Authors', bSearchable=False, bSortable=False),
-            FeatureAreaCol(self, 'area'),
-            Col(self, 'Languages', model_col=Feature.representation),
-            DetailsRowLinkCol(self, 'd', button_text='Values'),
+            IdCol(self, 'id', sClass='right'),
+            Col(self, 'FeatureSet', model_col=OOAParameter.feature_set),
+            Col(self, 'Questions', model_col=OOAParameter.question),
+            Col(self, 'Visualization', model_col=OOAParameter.visualization),
+            Col(self, 'Datatype', model_col=OOAParameter.datatype),
         ]
 
 

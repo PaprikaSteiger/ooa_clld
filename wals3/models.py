@@ -128,27 +128,28 @@ class OOAParameter(CustomModelMixin, Parameter):
 
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
     #parameter_id = Column(Unicode)
+    feature_set = Column(Unicode)
     question = Column(Unicode)
     datatype = Column(Unicode)
     visualization = Column(Unicode)
 
-@implementer(interfaces.IParameter)
-class Feature(CustomModelMixin, Parameter):
-
-    """Parameters in WALS are called feature. They are always related to one chapter."""
-
-    __table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
-
-    pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
-    contribution_pk = Column(Integer, ForeignKey('contribution.pk'))
-    blog_title = Column(String(50), unique=True)
-    representation = Column(Integer)
-    chapter = relationship(Chapter, lazy='joined', backref="features")
-    ordinal_qualifier = Column(String)
-
-    def __rdf__(self, request):
-        if self.chapter.area.dbpedia_url:
-            yield 'dcterms:subject', self.chapter.area.dbpedia_url
+# @implementer(interfaces.IParameter)
+# class Feature(CustomModelMixin, Parameter):
+#
+#     """Parameters in WALS are called feature. They are always related to one chapter."""
+#
+#     __table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
+#
+#     pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
+#     contribution_pk = Column(Integer, ForeignKey('contribution.pk'))
+#     blog_title = Column(String(50), unique=True)
+#     representation = Column(Integer)
+#     chapter = relationship(Chapter, lazy='joined', backref="features")
+#     ordinal_qualifier = Column(String)
+#
+#     def __rdf__(self, request):
+#         if self.chapter.area.dbpedia_url:
+#             yield 'dcterms:subject', self.chapter.area.dbpedia_url
 
 @implementer(interfaces.IValue)
 class OOAValue(CustomModelMixin, Value):

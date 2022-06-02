@@ -8,7 +8,7 @@ from clld.db.util import icontains
 from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institution
 from clld.util import summary
 
-from wals3.models import Family, Genus, Feature, OOALanguage
+from wals3.models import Family, Genus, OOALanguage
 from wals3.util import LanguoidSelect
 
 
@@ -80,14 +80,14 @@ def languoids(request):
     return dict(results=list(map(ms.format_result, res)), context={}, more=False)
 
 
-@view_config(route_name='feature_info', renderer='json')
-def info(request):
-    feature = Feature.get(request.matchdict['id'])
-    return {
-        'name': feature.name,
-        'values': [{'name': d.name, 'number': i + 1}
-                   for i, d in enumerate(feature.domain)],
-    }
+# @view_config(route_name='feature_info', renderer='json')
+# def info(request):
+#     feature = Feature.get(request.matchdict['id'])
+#     return {
+#         'name': feature.name,
+#         'values': [{'name': d.name, 'number': i + 1}
+#                    for i, d in enumerate(feature.domain)],
+#     }
 
 
 @view_config(route_name='datapoint', request_method='POST')

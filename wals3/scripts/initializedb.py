@@ -46,6 +46,7 @@ def main(args):
         data.add(models.OOAParameter, row["ParameterID"].replace(".", ""),
                  id=row["ParameterID"].replace(".", ""),
                  #parameter_id=row["ParameterID"],
+                 feature_set=row["FeatureSet"],
                  question=row["Question"],
                  datatype=row["datatype"],
                  visualization=row["VisualizationOnly"],

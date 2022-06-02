@@ -15,7 +15,7 @@ from clld.web.util.multiselect import MultiSelect, CombinationMultiSelect
 from clld.web.icon import ICON_MAP
 
 import wals3
-from wals3.models import Feature, Genus, OOALanguage
+from wals3.models import Genus, OOALanguage, OOAParameter
 
 
 class LanguoidSelect(MultiSelect):
@@ -41,7 +41,7 @@ class LanguoidSelect(MultiSelect):
 
 
 def language_index_html(context=None, request=None, **kw):
-    data = [l for l in DBSession.query(OOALanguage)][:10]
+    data = [l for l in DBSession.query(OOALanguage)][:2]
     #return dict(datapoints=data)
     return {
         'ms' : MultiSelect(request, "languages", 'languages', collection=data)
@@ -63,28 +63,28 @@ def source_detail_html(context=None, request=None, **kw):
     return {'referents': get_referents(context)}
 
 
-def contribution_detail_html(context=None, request=None, **kw):
-    if context.id == 's4':
-        raise HTTPFound(request.route_url('genealogy'))
-
-    c = context.description
-    if '<body>' in c:
-        c = c.split('<body>')[1].split('</body>')[0]
-    adapter = get_adapter(IRepresentation, Feature(), request, ext='snippet.html')
-    fids = [m.group('fid') for m in re.finditer('__values_(?P<fid>[0-9A-Z]+)__', c)]
-
-    for feature in DBSession.query(Feature)\
-            .filter(Feature.id.in_(fids))\
-            .options(joinedload(Feature.domain)):
-        counts = DBSession.query(Value.domainelement_pk, func.count(Value.pk))\
-            .filter(Value.domainelement_pk.in_([de.pk for de in feature.domain]))\
-            .group_by(Value.domainelement_pk)
-        feature.counts = dict(counts)
-        table = soup(adapter.render(feature, request), features='html5lib')
-        values = '\n'.join('%s' % table.find(tag).extract() for tag in ['thead', 'tbody'])
-        c = c.replace('__values_%s__' % feature.id, values)
-
-    return {'text': c.replace('http://wals.info', request.application_url)}
+# def contribution_detail_html(context=None, request=None, **kw):
+#     if context.id == 's4':
+#         raise HTTPFound(request.route_url('genealogy'))
+#
+#     c = context.description
+#     if '<body>' in c:
+#         c = c.split('<body>')[1].split('</body>')[0]
+#     adapter = get_adapter(IRepresentation, Feature(), request, ext='snippet.html')
+#     fids = [m.group('fid') for m in re.finditer('__values_(?P<fid>[0-9A-Z]+)__', c)]
+#
+#     for feature in DBSession.query(Feature)\
+#             .filter(Feature.id.in_(fids))\
+#             .options(joinedload(Feature.domain)):
+#         counts = DBSession.query(Value.domainelement_pk, func.count(Value.pk))\
+#             .filter(Value.domainelement_pk.in_([de.pk for de in feature.domain]))\
+#             .group_by(Value.domainelement_pk)
+#         feature.counts = dict(counts)
+#         table = soup(adapter.render(feature, request), features='html5lib')
+#         values = '\n'.join('%s' % table.find(tag).extract() for tag in ['thead', 'tbody'])
+#         c = c.replace('__values_%s__' % feature.id, values)
+#
+#     return {'text': c.replace('http://wals.info', request.application_url)}
 
 
 def _valuesets(parameter):
@@ -100,6 +100,10 @@ def parameter_detail_tab(context=None, request=None, **kw):
         joinedload(ValueSet.language).joinedload(WalsLanguage.genus).joinedload(Genus.family))
     return dict(datapoints=query)
 
+
+def parameter_index_html(context=None, request=None, **kw):
+    data = [p for p in DBSession.query(OOAParameter)]
+    return {'ms': MultiSelect(request, "parameters", "parameters", collection=data)}
 
 def parameter_detail_georss(context=None, request=None, **kw):
     return dict(datapoints=_valuesets(context))
