@@ -17,9 +17,9 @@ $(document).ready(function() {
 <h2>THIS IS NOW A OOA APP</h2>
 
 <p class="lead">
-THIS IS NOW A OOA APP
 </p>
 <p>
+  THIS IS NOW A OOA APP
   The first version of WALS was published as a book with CD-ROM in 2005 by
   Oxford University Press. The first online version was published in April 2008.
   Both are superseeded by the current online version, published in April 2011.

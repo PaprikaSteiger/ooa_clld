@@ -157,7 +157,7 @@ class OOAValue(CustomModelMixin, Value):
 
     language_id = Column(Unicode, ForeignKey('language.pk'))
     parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
-    code_id = Column(Unicode, ForeignKey('domainelement.pk'))
+    code_id = Column(Unicode)
     value = Column(Unicode)
     remark = Column(Unicode)
     source = Column(Unicode, ForeignKey('source.pk'))

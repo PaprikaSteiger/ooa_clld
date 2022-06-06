@@ -82,16 +82,16 @@ def main(args):
                  parameter_pk=data['OOAParameter'][row['ParameterID'].replace(".", "")].pk)
     DBSession.flush()
 
-    # for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing codes"):
-    #     data.add(models.OOAValue, row["ID"],
-    #              language_id=data["OOALanguage"][row["LanguageID"]].pk,
-    #              parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
-    #              code_id=data["DomainElement"][row["CodeID"].replace(".", "") if row["CodeID"] else row["CodeID"]].pk,
-    #              value=row["Value"],
-    #              remark=row["Remark"],
-    #              source=data["Source"][row["Source"].split(";")[0]].pk,
-    #              coder=row["Coder"],
-    #              )
+    for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
+        data.add(models.OOAValue, row["ID"],
+                 language_id=data["OOALanguage"][row["LanguageID"]].pk,
+                 parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
+                 code_id=data["DomainElement"] or "",
+                 value=row["Value"],
+                 remark=row["Remark"],
+                 source=data["Source"],
+                 coder=row["Coder"],
+                 )
 
 
 
