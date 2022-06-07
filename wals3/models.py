@@ -19,6 +19,7 @@ from clld.db.models.common import (
     Contribution,
     IdNameDescriptionMixin,
     ValueSet,
+    Unit
 )
 from wals3 import interfaces as wals_interfaces
 
@@ -151,11 +152,11 @@ class OOAParameter(CustomModelMixin, Parameter):
 #         if self.chapter.area.dbpedia_url:
 #             yield 'dcterms:subject', self.chapter.area.dbpedia_url
 
-@implementer(interfaces.IValue)
-class OOAValue(CustomModelMixin, Value):
-    pk = Column(Unicode, ForeignKey('value.pk'), primary_key=True)
+@implementer(interfaces.IUnit)
+class OOAValue(CustomModelMixin, Unit):
+    pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
-    language_id = Column(Unicode, ForeignKey('language.pk'))
+    #language_id = Column(Unicode, ForeignKey('language.pk'))
     parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
     code_id = Column(Unicode)
     value = Column(Unicode)

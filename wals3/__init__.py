@@ -10,15 +10,15 @@ from pyramid.response import Response
 from clldutils import svg
 from clld.interfaces import (
     IParameter, IMapMarker, IDomainElement, IValue, ILanguage,
-    ICtxFactoryQuery, IIconList,
+    ICtxFactoryQuery, IIconList, IUnit
 )
 from clld.web.adapters.download import Download
 from clld.web.icon import Icon
 from clld.web.app import CtxFactoryQuery
-from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source
+from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
 
 from wals3.adapters import Matrix
-from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter
+from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAValue
 from wals3.interfaces import IFamily, ICountry, IGenus
 
 COLORS = [
@@ -145,6 +145,8 @@ def main(global_config, **settings):
         'legal': '/about/legal',
         'olac': '/languoid/oai',
         'credits': '/about/credits',
+        'codes': r'/codes',
+        'values': r'/ooavalues'
     }
     icons = [WalsIcon(s + c) for s, c in itertools.product(SHAPES, COLORS)]
 
@@ -162,6 +164,8 @@ def main(global_config, **settings):
     config.register_resource('country', Country, ICountry)
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
     config.register_resource('ooaparameter', OOAParameter, IParameter)
+    config.register_resource('codes', DomainElement, IDomainElement)
+    config.register_resource('values', OOAValue, IUnit)
 
     config.add_route(
         'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)

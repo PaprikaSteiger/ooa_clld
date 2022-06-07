@@ -4,6 +4,7 @@ from collections import defaultdict
 
 import pycldf
 from tqdm  import tqdm
+import sqlalchemy
 
 from clld.cliutil import Data, slug, bibtex2source, add_language_codes
 from clld.db.meta import DBSession
@@ -82,16 +83,22 @@ def main(args):
                  parameter_pk=data['OOAParameter'][row['ParameterID'].replace(".", "")].pk)
     DBSession.flush()
 
+
+
     for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
         data.add(models.OOAValue, row["ID"],
-                 language_id=data["OOALanguage"][row["LanguageID"]].pk,
+                 id=row["ID"],
+                 language_pk=data["OOALanguage"][row["LanguageID"]].pk,
                  parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
-                 code_id=data["DomainElement"] or "",
+                 code_id=row["CodeID"] or "",
                  value=row["Value"],
                  remark=row["Remark"],
-                 source=data["Source"],
+                 source=row["Source"],
                  coder=row["Coder"],
                  )
+    DBSession.flush()
 
 
 
+# if __name__ == "__main__":
+#     main({})
