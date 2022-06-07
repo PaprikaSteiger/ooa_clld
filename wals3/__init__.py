@@ -13,6 +13,7 @@ from clld.interfaces import (
     ICtxFactoryQuery, IIconList, IUnit
 )
 from clld.web.adapters.download import Download
+from clld.web.adapters.base import adapter_factory
 from clld.web.icon import Icon
 from clld.web.app import CtxFactoryQuery
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
@@ -136,8 +137,8 @@ def main(global_config, **settings):
         'parameter': r'/feature/{id:[^/\.]+}',
         'sentences': '/example',
         'sentence': r'/example/{id:[^/\.]+}',
-        'contributions': '/chapter',
-        'contribution': r'/chapter/{id:[^/\.]+}',
+        # 'contributions': '/chapter',
+        # 'contribution': r'/chapter/{id:[^/\.]+}',
         'countrys': '/country',
         'country': r'/country/{id:[^/\.]+}',
         'contributors': '/author',
@@ -145,7 +146,7 @@ def main(global_config, **settings):
         'legal': '/about/legal',
         'olac': '/languoid/oai',
         'credits': '/about/credits',
-        'codes': r'/codes',
+        'codes': r'/domainelement',
         'values': r'/ooavalues'
     }
     icons = [WalsIcon(s + c) for s, c in itertools.product(SHAPES, COLORS)]
@@ -165,8 +166,9 @@ def main(global_config, **settings):
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
     config.register_resource('ooaparameter', OOAParameter, IParameter)
     config.register_resource('codes', DomainElement, IDomainElement)
-    config.register_resource('values', OOAValue, IUnit)
-
+    config.register_resource('ooavalue', OOAValue, IUnit)
+    # this should register the values template as an adapter for Iunit
+    config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     config.add_route(
         'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)
     config.add_route(
@@ -279,6 +281,7 @@ def main(global_config, **settings):
     config.add_route('olac.source', '/refdb_oai')
     config.add_route('languoids', '/languoids')
     config.add_route('ooalanguages', '/ooalanguages')
+    config.add_route('ooavalues', '/ooavalues')
 
     config.register_download(
         Matrix(Language, 'wals3', description="Feature values CSV"))

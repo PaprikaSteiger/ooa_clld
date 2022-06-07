@@ -89,6 +89,7 @@ def main(args):
         data.add(models.OOAValue, row["ID"],
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                 language_id=data["OOALanguage"][row["LanguageID"]].pk,
                  parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
                  code_id=row["CodeID"] or "",
                  value=row["Value"],

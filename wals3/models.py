@@ -156,7 +156,7 @@ class OOAParameter(CustomModelMixin, Parameter):
 class OOAValue(CustomModelMixin, Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
-    #language_id = Column(Unicode, ForeignKey('language.pk'))
+    language_id = Column(Unicode, ForeignKey('language.pk'))
     parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
     code_id = Column(Unicode)
     value = Column(Unicode)

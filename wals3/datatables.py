@@ -1,7 +1,7 @@
 from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
-from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol
+from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, DataTable
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
 from clld.db.models import common
@@ -9,7 +9,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter
+from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAValue
 
 
 # class FeatureIdCol(LinkCol):
@@ -156,6 +156,20 @@ class Languages(datatables.Languages):
             Col(self, 'macroarea', model_col=OOALanguage.macroarea),
             Col(self, 'family_id', model_col=OOALanguage.family_id)
         ]
+
+
+class Values(DataTable):
+
+    def base_query(self, query):
+    #     query = query.join(OOALanguage, common.Unit.language_pk == OOALanguage.id)
+        return query
+
+    def col_defs(self):
+        return [
+            IdCol(self, 'id', sTitle='id'),
+            Col(self, 'parameter_id', model_col=OOAValue.parameter_id),
+            Col(self, 'language_id', model_col=OOAValue.language_pk)
+        ]
 # class Languages(datatables.Languages):
 #     def base_query(self, query):
 #         return query.join(Genus).join(Family).options(
@@ -211,6 +225,6 @@ class Chapters(datatables.Contributions):
 
 def includeme(config):
     config.register_datatable('contributions', Chapters)
-    config.register_datatable('values', Datapoints)
+    config.register_datatable('values', Values)
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)
