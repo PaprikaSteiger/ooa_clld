@@ -2,6 +2,7 @@ from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
 from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, DataTable
+from clld.web.datatables import Units
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
 from clld.db.models import common
@@ -9,7 +10,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAValue
+from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAUnit
 
 
 # class FeatureIdCol(LinkCol):
@@ -158,17 +159,17 @@ class Languages(datatables.Languages):
         ]
 
 
-class Values(DataTable):
+class Units(Units):
 
     def base_query(self, query):
-    #     query = query.join(OOALanguage, common.Unit.language_pk == OOALanguage.id)
+        query = query.join(OOALanguage, OOAUnit.language_id == OOALanguage.id)
         return query
 
     def col_defs(self):
         return [
             IdCol(self, 'id', sTitle='id'),
-            Col(self, 'parameter_id', model_col=OOAValue.parameter_id),
-            Col(self, 'language_id', model_col=OOAValue.language_pk)
+            Col(self, 'parameter_id', model_col=OOAUnit.parameter_id),
+            Col(self, 'language_id', model_col=OOAUnit.language_pk)
         ]
 # class Languages(datatables.Languages):
 #     def base_query(self, query):
@@ -225,6 +226,6 @@ class Chapters(datatables.Contributions):
 
 def includeme(config):
     config.register_datatable('contributions', Chapters)
-    config.register_datatable('values', Values)
+    config.register_datatable('units', Units)
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)

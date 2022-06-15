@@ -54,7 +54,11 @@ def main(args):
                  )
     DBSession.flush()
 
+    all_languages = {row["LanguageID"] for row in ds.iter_rows('ValueTable')}
+
     for row in tqdm(ds.iter_rows('LanguageTable'), desc='Processing languages'):
+        if row["Glottocode"] not in all_languages:
+            continue
         data.add(models.OOALanguage, row['Glottocode'],
                  id=row['Glottocode'],
                  glottocode=row['Glottocode'],
@@ -86,10 +90,10 @@ def main(args):
 
 
     for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
-        data.add(models.OOAValue, row["ID"],
+        data.add(models.OOAUnit, row["ID"],
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
-                 language_id=data["OOALanguage"][row["LanguageID"]].pk,
+                 language_id=row["LanguageID"],
                  parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
                  code_id=row["CodeID"] or "",
                  value=row["Value"],

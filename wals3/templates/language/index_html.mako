@@ -8,7 +8,7 @@
     <script src="${request.static_url('clld:web/static/js/select2.js')}"></script>
 </%block>
 
-${lib.languages_contextnav()}
+## ${lib.languages_contextnav()}
 
 <div class="span6 pull-right well well-small">
     <p>
@@ -17,7 +17,7 @@ ${lib.languages_contextnav()}
         <b>languages</b>, in italics for <i>genera</i> and underlined for <u>families</u>.
         This search does also take alternative names into account.
     </p>
-    ${ms.render()}
+    ## ${ms.render()}
 </div>
 
 <h2>Languages</h2>
@@ -26,9 +26,9 @@ ${lib.languages_contextnav()}
 ${ctx.render()}
 
 <script type="text/javascript">
-    $(document).ready(function() {
-        $("#${ms.eid}").on("select2-selecting", function(e) {
-            document.location.href = '${ms.url}?id=' + e.val;
-        });
+    ## $(document).ready(function() {
+    ##    $("#${ms.eid}").on("select2-selecting", function(e) {
+    ##        document.location.href = '${ms.url}?id=' + e.val;
+    ##    });
     });
 </script>

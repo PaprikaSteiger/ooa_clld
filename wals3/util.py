@@ -15,7 +15,7 @@ from clld.web.util.multiselect import MultiSelect, CombinationMultiSelect
 from clld.web.icon import ICON_MAP
 
 import wals3
-from wals3.models import Genus, OOALanguage, OOAValue, OOAParameter
+from wals3.models import Genus, OOALanguage, OOAUnit, OOAParameter
 
 
 class LanguoidSelect(MultiSelect):
@@ -40,12 +40,12 @@ class LanguoidSelect(MultiSelect):
             'formatSelection': JS('WALS3.formatLanguoid')}
 
 
-def language_index_html(context=None, request=None, **kw):
-    data = [l for l in DBSession.query(OOALanguage)]
-    #return dict(datapoints=data)
-    return {
-        'ms' : MultiSelect(request, "languages", 'languages', collection=data)
-    }
+# def language_index_html(context=None, request=None, **kw):
+#     data = [l for l in DBSession.query(OOALanguage)]
+#     #return dict(datapoints=data)
+#     return {
+#         'ms' : MultiSelect(request, "languages", 'languages', collection=data)
+#     }
     # return {'ms': LanguoidSelect(
     #     request, 'languoid', 'languoid', url=request.route_url('languoids'))}
 
@@ -134,8 +134,8 @@ def combination_detail_html(context=None, request=None, **kw):
     return dict(iconselect=True)
 
 
-def value_index_html(context=None, request=None, **kw):
-    data = [l for l in DBSession.query(OOAValue)]
-    return {
-        'ms' : MultiSelect(request, "values", 'values', collection=data)
-    }
+# def values_index_html(context=None, request=None, **kw):
+#     data = [l for l in DBSession.query(OOAValue)]
+#     return {
+#         'ms' : MultiSelect(request, "values", 'values', collection=data)
+#     }

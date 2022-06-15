@@ -153,7 +153,7 @@ class OOAParameter(CustomModelMixin, Parameter):
 #             yield 'dcterms:subject', self.chapter.area.dbpedia_url
 
 @implementer(interfaces.IUnit)
-class OOAValue(CustomModelMixin, Unit):
+class OOAUnit(CustomModelMixin, Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
     language_id = Column(Unicode, ForeignKey('language.pk'))

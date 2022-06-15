@@ -2,19 +2,26 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "languages" %>
 <%block name="title">Language ${ctx.name}</%block>
+<%! from wals3.models import OOAUnit %>
+<%! from wals3.datatables import Units %>
 
 <ul class="breadcrumb">
-    <li>Family: ${h.link(request, ctx.genus.family)} <span class="divider">/</span></li>
-    % if ctx.genus.subfamily:
-    <li class="active">Subfamily: ${ctx.genus.subfamily} <span class="divider">/</span></li>
-    % endif
-    <li class="active">Genus: ${h.link(request, ctx.genus)}</li>
+    ## <li>Family: ${h.link(request, ctx.family_name)} <span class="divider">/</span></li>
+    ## % if ctx.genus.subfamily:
+    ## <li class="active">Subfamily: ${ctx.genus.subfamily} <span class="divider">/</span></li>
+    ## % endif
+    ## <li class="active">Genus: ${h.link(request, ctx.genus)}</li>
 </ul>
 
-<h2>Language ${ctx.name}</h2>
-<span class="badge">WALS code: ${ctx.id}</span>
-
-${request.get_datatable('values', h.models.Value, language=ctx).render()}
+<h2>Language ${ctx.name} - ${type(h)} - ${h}</h2>
+<span class="badge">Glotto code: ${ctx.id}</span>
+${ctx.pk}
+${ctx.id}
+##${h.DBSession.query(OOAValue).render()}
+##${h.DBSession.query(OOAValue).all()}
+##${request.get_datatable('values', OOAValue, language_id=ctx.id).render()}
+${request.get_datatable('units', OOAUnit, language=ctx).render()}
+##${request.get_datatable('values', h.models.Value, language=ctx).render()}
 
 <%def name="sidebar()">
     ${util.codes()}
@@ -22,10 +29,10 @@ ${request.get_datatable('values', h.models.Value, language=ctx).render()}
     <%util:well>
         ${request.map.render()}
         ${h.format_coordinates(ctx)}
-        ${util.dl_table(('Spoken in', h.literal(', '.join(h.link(request, c) for c in ctx.countries))))}
+        ## ${util.dl_table(('Spoken in', h.literal(', '.join(h.link(request, c) for c in ctx.countries))))}
     </%util:well>
     <%util:well title="Alternative names">
-        ${util.dl_table(*[(i.description.capitalize(), i.name) for i in ctx.identifiers if i.type == 'name'])}
+        ## ${util.dl_table(*[(i.description.capitalize(), i.name) for i in ctx.identifiers if i.type == 'name'])}
     </%util:well>
     % if ctx.sources:
     <%util:well title="Sources">
