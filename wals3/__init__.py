@@ -288,9 +288,9 @@ def main(global_config, **settings):
     #
     # config.add_route('olac.source', '/refdb_oai')
     # config.add_route('languoids', '/languoids')
-    config.add_route('ooalanguages', '/ooalanguages', factory=sample_factory)
-    config.add_route('ooaunits', '/ooaunits')
-    config.add_route('ooafeatures', '/ooafeatures')
+    # config.add_route('ooalanguages', '/ooalanguages', factory=sample_factory)
+    # config.add_route('ooaunits', '/ooaunits')
+    # config.add_route('ooafeatures', '/ooafeatures')
     #config.add_route('codes', '/domainelement')
     #
     # config.register_download(
