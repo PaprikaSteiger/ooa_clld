@@ -87,30 +87,31 @@ def source_detail_html(context=None, request=None, **kw):
 #     return {'text': c.replace('http://wals.info', request.application_url)}
 
 
-def _valuesets(parameter):
-    return DBSession.query(ValueSet)\
-        .filter(ValueSet.parameter_pk == parameter.pk)\
-        .options(
-            joinedload(ValueSet.language),
-            joinedload(ValueSet.values).joinedload(Value.domainelement))
+# def _valuesets(parameter):
+#     return DBSession.query(ValueSet)\
+#         .filter(ValueSet.parameter_pk == parameter.pk)\
+#         .options(
+#             joinedload(ValueSet.language),
+#             joinedload(ValueSet.values).joinedload(Value.domainelement))
+#
+#
+# def parameter_detail_tab(context=None, request=None, **kw):
+#     query = _valuesets(context).options(
+#         joinedload(ValueSet.language).joinedload(WalsLanguage.genus).joinedload(Genus.family))
+#     return dict(datapoints=query)
 
 
-def parameter_detail_tab(context=None, request=None, **kw):
-    query = _valuesets(context).options(
-        joinedload(ValueSet.language).joinedload(WalsLanguage.genus).joinedload(Genus.family))
-    return dict(datapoints=query)
+# def parameter_index_html(context=None, request=None, **kw):
+#     data = [p for p in DBSession.query(OOAParameter)]
+#     return {'ms': MultiSelect(request, "parameters", "parameters", collection=data)}
 
-
-def parameter_index_html(context=None, request=None, **kw):
-    data = [p for p in DBSession.query(OOAParameter)]
-    return {'ms': MultiSelect(request, "parameters", "parameters", collection=data)}
 
 def parameter_detail_georss(context=None, request=None, **kw):
     return dict(datapoints=_valuesets(context))
 
 
-def parameter_detail_xml(context=None, request=None, **kw):
-    return dict(datapoints=_valuesets(context))
+# def parameter_detail_xml(context=None, request=None, **kw):
+#     return dict(datapoints=_valuesets(context))
 
 
 def parameter_detail_kml(context=None, request=None, **kw):

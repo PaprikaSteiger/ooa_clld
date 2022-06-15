@@ -13,3 +13,11 @@
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}
+
+<script type="text/javascript">
+    ## $(document).ready(function() {
+    ##    $("#${ms.eid}").on("select2-selecting", function(e) {
+    ##        document.location.href = '${ms.url}?id=' + e.val;
+    ##    });
+    });
+</script>

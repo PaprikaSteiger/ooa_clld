@@ -128,7 +128,7 @@ class Features(datatables.Parameters):
     #     ]
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='right'),
+            IdCol(self, 'id', sClass='left'),
             Col(self, 'FeatureSet', model_col=OOAParameter.feature_set),
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
@@ -226,6 +226,6 @@ class Chapters(datatables.Contributions):
 
 def includeme(config):
     config.register_datatable('contributions', Chapters)
-    config.register_datatable('units', Units)
-    config.register_datatable('languages', Languages)
+    config.register_datatable('ooaunits', Units)
+    config.register_datatable('ooalanguages', Languages)
     config.register_datatable('parameters', Features)

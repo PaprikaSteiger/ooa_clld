@@ -139,8 +139,8 @@ def main(global_config, **settings):
         #'familys': '/languoid/family',
         #'family': r'/languoid/family/{id:[^/\.]+}',
         #'genus': r'/languoid/genus/{id:[^/\.]+}',
-        'parameters': '/feature',
-        'parameter': r'/feature/{id:[^/\.]+}',
+        'parameters': '/ooafeatures',
+        'parameter': r'/ooafeatures/{id:[^/\.]+}',
         #'sentences': '/example',
         #'sentence': r'/example/{id:[^/\.]+}',
         # 'contributions': '/chapter',
@@ -172,11 +172,11 @@ def main(global_config, **settings):
     # config.register_resource('genus', Genus, IGenus, with_index=True)
     # config.register_resource('country', Country, ICountry)
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
-    config.register_resource('ooaparameter', OOAParameter, IParameter)
+    config.register_resource('ooafeature', OOAParameter, IParameter)
     config.register_resource('codes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
     # this should register the values template as an adapter for Iunit
-    config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
+    # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
     #     'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)
     # config.add_route(
@@ -290,6 +290,7 @@ def main(global_config, **settings):
     # config.add_route('languoids', '/languoids')
     config.add_route('ooalanguages', '/ooalanguages', factory=sample_factory)
     config.add_route('ooaunits', '/ooaunits')
+    config.add_route('ooafeatures', '/ooafeatures')
     #config.add_route('codes', '/domainelement')
     #
     # config.register_download(
