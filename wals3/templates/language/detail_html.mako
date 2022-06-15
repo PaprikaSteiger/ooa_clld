@@ -20,7 +20,7 @@ ${ctx.id}
 ##${h.DBSession.query(OOAValue).render()}
 ##${h.DBSession.query(OOAValue).all()}
 ##${request.get_datatable('values', OOAValue, language_id=ctx.id).render()}
-${request.get_datatable('units', OOAUnit, language=ctx).render()}
+${request.get_datatable('ooaunits', OOAUnit, language=ctx).render()}
 ##${request.get_datatable('values', h.models.Value, language=ctx).render()}
 
 <%def name="sidebar()">
