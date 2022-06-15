@@ -1,6 +1,6 @@
 <%inherit file="../home_comp.mako"/>
 <%namespace name="util" file="../util.mako"/>
-
+## this is the template displayed as the home page of the website
 <%def name="sidebar()">
     <div class="alert alert-info">
         The functionality to comment on WALS Online data via an associated blog has been
