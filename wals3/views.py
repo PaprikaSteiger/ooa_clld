@@ -3,7 +3,7 @@ from pyramid.view import view_config
 from pyramid.httpexceptions import HTTPFound, HTTPNotFound
 
 from clld.db.meta import DBSession
-from clld.db.models.common import ValueSet, Source, Language, LanguageIdentifier, Identifier
+from clld.db.models.common import ValueSet, Source, Language, LanguageIdentifier, Identifier, DomainElement
 from clld.db.util import icontains
 from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institution
 from clld.util import summary
@@ -183,3 +183,8 @@ from wals3.util import LanguoidSelect
 # @view_config(route_name='olac.source')
 # def olac_source(req):
 #     return olac_with_cfg(req, OlacConfigSource())
+
+# @view_config(route_name='codes', renderer=r'codes/index_html.mako')
+# def codes(req):
+#     codes = req.db.query(DomainElement).all()
+#     return {'codes': codes}

@@ -21,7 +21,7 @@
 </div>
 
 <h2>Languages</h2>
-
+${type(ctx)}
 <div class="clearfix"> </div>
 ${ctx.render()}
 

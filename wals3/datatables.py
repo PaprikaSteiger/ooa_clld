@@ -112,7 +112,7 @@ class FeatureAreaCol(_AreaCol):
         return item.chapter.area.name
 
 
-class Features(datatables.Parameters):
+class Features(datatables.Unitparameters):
     # def base_query(self, query):
     #     return query.join(Chapter).join(Area)\
     #         .options(contains_eager(Feature.chapter, Chapter.area))

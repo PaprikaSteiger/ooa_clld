@@ -2,10 +2,10 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "codes" %>
 <%block name="title">Codes</%block>
-
+${type(ctx)}
 <h2>Features</h2>
 <p>
     Those are the OOA Codes
 </p>
 <div class="clearfix"> </div>
-${ctx.render()}
+${codes}
