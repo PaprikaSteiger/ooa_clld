@@ -10,7 +10,7 @@ from pyramid.response import Response
 from clldutils import svg
 from clld.interfaces import (
     IParameter, IMapMarker, IDomainElement, IValue, ILanguage,
-    ICtxFactoryQuery, IIconList, IUnit
+    ICtxFactoryQuery, IIconList, IUnit, IUnitParameter
 )
 from clld.web.adapters.download import Download
 from clld.web.adapters.base import adapter_factory
@@ -19,7 +19,7 @@ from clld.web.app import CtxFactoryQuery
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
 
 from wals3.adapters import Matrix
-from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit
+from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 from wals3.interfaces import IFamily, ICountry, IGenus
 
 COLORS = [
@@ -141,6 +141,8 @@ def main(global_config, **settings):
         #'genus': r'/languoid/genus/{id:[^/\.]+}',
         'parameters': '/ooafeatures',
         'parameter': r'/ooafeatures/{id:[^/\.]+}',
+        'featuresets': r'/ooafeaturesets',
+        'featureset': r'/ooafeaturesets/{id:[^/\.]+}',
         #'sentences': '/example',
         #'sentence': r'/example/{id:[^/\.]+}',
         # 'contributions': '/chapter',
@@ -175,6 +177,7 @@ def main(global_config, **settings):
     config.register_resource('ooafeature', OOAParameter, IParameter)
     config.register_resource('codes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
+    config.register_resource('ooafeatureset', OOAFeatureSet, IUnitParameter)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
