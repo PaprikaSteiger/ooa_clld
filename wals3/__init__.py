@@ -101,7 +101,7 @@ class WalsCtxFactoryQuery(CtxFactoryQuery):
 
 def sample_factory(req):
     class Sample(object):
-        name = '%s-language sample' % req.matchdict['count']
+       # name = '%s-language sample' % req.matchdict['count']
         languages = req.db.query(OOALanguage).all()
             # .filter(col == true())\
             # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
@@ -146,36 +146,37 @@ class WalsIcon(Icon):
 
 def main(global_config, **settings):
     """return a Pyramid WSGI application."""
-    settings['route_patterns'] = {
-        'languages': r'/ooalanguages',
-        'language': r'/ooalanguages/{id:[^/\.]+}',
-        'source': r'/refdb/record/{id:[^/\.]+}',
-        'sources': '/refdb',
-        #'familys': '/languoid/family',
-        #'family': r'/languoid/family/{id:[^/\.]+}',
-        #'genus': r'/languoid/genus/{id:[^/\.]+}',
-        'features': '/ooafeatures',
-        'feature': r'/ooafeatures/{id:[^/\.]+}',
-        'featuresets': '/ooafeaturesets',
-        'featureset': '/ooafeaturesets/{id:[^/\.]+}',
-        #'sentences': '/example',
-        #'sentence': r'/example/{id:[^/\.]+}',
-        # 'contributions': '/chapter',
-        # 'contribution': r'/chapter/{id:[^/\.]+}',
-        # 'countrys': '/country',
-        # 'country': r'/country/{id:[^/\.]+}',
-        # 'contributors': '/author',
-        # 'contributor': r'/author/{id:[^/\.]+}',
-        # 'legal': '/about/legal',
-        # 'olac': '/languoid/oai',
-        # 'credits': '/about/credits',
-        'codes': r'/domainelement',
-        'code': r'/domainelement/{id}',
-        'units': r'/ooaunits',
-        'unit': r'/ooaunits/{id}'
-    }
+    # settings['route_patterns'] = {
+    #     'languages': r'/ooalanguages',
+    #     'language': r'/ooalanguages/{id:[^/\.]+}',
+    #     'source': r'/refdb/record/{id:[^/\.]+}',
+    #     'sources': '/refdb',
+    #     #'familys': '/languoid/family',
+    #     #'family': r'/languoid/family/{id:[^/\.]+}',
+    #     #'genus': r'/languoid/genus/{id:[^/\.]+}',
+    #     'features': '/ooafeatures',
+    #     'feature': r'/ooafeatures/{id:[^/\.]+}',
+    #     'featuresets': '/ooafeaturesets',
+    #     'featureset': '/ooafeaturesets/{id:[^/\.]+}',
+    #     #'sentences': '/example',
+    #     #'sentence': r'/example/{id:[^/\.]+}',
+    #     # 'contributions': '/chapter',
+    #     # 'contribution': r'/chapter/{id:[^/\.]+}',
+    #     # 'countrys': '/country',
+    #     # 'country': r'/country/{id:[^/\.]+}',
+    #     # 'contributors': '/author',
+    #     # 'contributor': r'/author/{id:[^/\.]+}',
+    #     # 'legal': '/about/legal',
+    #     # 'olac': '/languoid/oai',
+    #     # 'credits': '/about/credits',
+    #     'codes': r'/domainelement',
+    #     'code': r'/domainelement/{id}',
+    #     'units': r'/ooaunits',
+    #     'unit': r'/ooaunits/{id}'
+    # }
     icons = [WalsIcon(s + c) for s, c in itertools.product(SHAPES, COLORS)]
 
+    #config = Configurator(**dict(settings=settings))
     config = Configurator(**dict(settings=settings))
     config.include('clldmpg')
     for utility, interface in [
@@ -188,11 +189,11 @@ def main(global_config, **settings):
     # config.register_resource('family', Family, IFamily, with_index=True)
     # config.register_resource('genus', Genus, IGenus, with_index=True)
     # config.register_resource('country', Country, ICountry)
-    config.register_resource('ooalanguage', OOALanguage, ILanguage)
-    config.register_resource('ooafeature', OOAParameter, IUnitDomainElement)
-    config.register_resource('ooacode', DomainElement, IDomainElement)
-    config.register_resource('ooaunit', OOAUnit, IUnit)
-    config.register_resource('ooafeatureset', OOAFeatureSet, IParameter)
+    # config.register_resource('languages', OOALanguage, ILanguage)
+    # config.register_resource('ooafeatures', OOAParameter, IUnitDomainElement)
+    # config.register_resource('codes', DomainElement, IDomainElement)
+    # config.register_resource('units', OOAUnit, IUnit)
+    # config.register_resource('featuresets', OOAFeatureSet, IParameter)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
@@ -202,7 +203,7 @@ def main(global_config, **settings):
     #
     # config.add_route('olac.source', '/refdb_oai')
     # config.add_route('languoids', '/languoids')
-    config.add_route('languages', '/ooalanguages')
+    config.add_route('languages', '/ooalanguages', factory=sample_factory)
     config.add_route('units', '/ooaunits')
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)

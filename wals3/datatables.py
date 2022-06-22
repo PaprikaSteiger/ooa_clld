@@ -237,7 +237,7 @@ class Chapters(datatables.Contributions):
 
 def includeme(config):
     config.register_datatable('contributions', Chapters)
-    config.register_datatable('ooaunits', Units)
-    config.register_datatable('ooalanguages', Languages)
-    config.register_datatable('ooafeatures', Features)
-    config.register_datatable('ooafeaturesets', Featuresets)
+    config.register_datatable('units', Units)
+    config.register_datatable('languages', Languages)
+    config.register_datatable('features', Features)
+    config.register_datatable('featuresets', Featuresets)
