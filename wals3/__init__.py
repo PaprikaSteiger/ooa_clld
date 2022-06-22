@@ -9,7 +9,7 @@ from pyramid.response import Response
 
 from clldutils import svg
 from clld.interfaces import (
-    IParameter, IMapMarker, IDomainElement, IValue, ILanguage,
+    IParameter, IMapMarker, IDomainElement, IValue, ILanguage, IParameter, IUnitDomainElement,
     ICtxFactoryQuery, IIconList, IUnit
 )
 from clld.web.adapters.download import Download
@@ -19,7 +19,7 @@ from clld.web.app import CtxFactoryQuery
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
 
 from wals3.adapters import Matrix
-from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit
+from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 from wals3.interfaces import IFamily, ICountry, IGenus
 
 COLORS = [
@@ -100,13 +100,6 @@ class WalsCtxFactoryQuery(CtxFactoryQuery):
 
 
 def sample_factory(req):
-#     try:
-#         col = {
-#             '100': WalsLanguage.samples_100,
-#             '200': WalsLanguage.samples_200}[req.matchdict['count']]
-#     except KeyError:
-#         raise HTTPNotFound()
-#
     class Sample(object):
         name = '%s-language sample' % req.matchdict['count']
         languages = req.db.query(OOALanguage).all()
@@ -115,14 +108,36 @@ def sample_factory(req):
             # .order_by(WalsLanguage.name)
 
         def __json__(self, req):
-            return {'name': self.name, 'languages': list(self.languages)[:50]}
+            return {'name': self.name, 'languages': list(self.languages)}
 
     return Sample()
 
 
-def generic_sample_factory():
-    pass
+def codes_sample_factory(req):
+    class Sample(object):
+        codes = req.db.query(DomainElement).all()
 
+        # .filter(col == true())\
+        # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
+        # .order_by(WalsLanguage.name)
+
+        def __json__(self, req):
+            return {'codes': list(self.codes)}
+
+    return Sample()
+
+
+def generic_sample(req, model):
+    class Sample(object):
+        data = req.db.query(model).all()
+            # .filter(col == true())\
+            # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
+            # .order_by(WalsLanguage.name)
+
+        def __json__(self, req):
+            return {'data': list(self.data)}
+
+    return Sample()
 
 class WalsIcon(Icon):
     def url(self, req):
@@ -139,8 +154,10 @@ def main(global_config, **settings):
         #'familys': '/languoid/family',
         #'family': r'/languoid/family/{id:[^/\.]+}',
         #'genus': r'/languoid/genus/{id:[^/\.]+}',
-        'parameters': '/ooafeatures',
-        'parameter': r'/ooafeatures/{id:[^/\.]+}',
+        'features': '/ooafeatures',
+        'feature': r'/ooafeatures/{id:[^/\.]+}',
+        'featuresets': '/ooafeaturesets',
+        'featureset': '/ooafeaturesets/{id:[^/\.]+}',
         #'sentences': '/example',
         #'sentence': r'/example/{id:[^/\.]+}',
         # 'contributions': '/chapter',
@@ -172,9 +189,10 @@ def main(global_config, **settings):
     # config.register_resource('genus', Genus, IGenus, with_index=True)
     # config.register_resource('country', Country, ICountry)
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
-    config.register_resource('ooafeature', OOAParameter, IParameter)
-    config.register_resource('codes', DomainElement, IDomainElement)
+    config.register_resource('ooafeature', OOAParameter, IUnitDomainElement)
+    config.register_resource('ooacode', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
+    config.register_resource('ooafeatureset', OOAFeatureSet, IParameter)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
@@ -182,6 +200,13 @@ def main(global_config, **settings):
     # config.add_route(
     #     'sample', '/languoid/samples/{count}', factory=sample_factory)
     #
+    # config.add_route('olac.source', '/refdb_oai')
+    # config.add_route('languoids', '/languoids')
+    config.add_route('languages', '/ooalanguages')
+    config.add_route('units', '/ooaunits')
+    config.add_route('features', '/ooafeatures')
+    config.add_route('codes', '/domainelement', factory=codes_sample_factory)
+    config.add_route('featuresets', '/ooafeaturesets')
     # for spec in [
     #     dict(
     #         template='parameter/detail_tab.mako',
@@ -286,12 +311,6 @@ def main(global_config, **settings):
     # config.add_410('/languoid/osd.{ext}')
     # config.add_410("/experimental/{id}")
     #
-    # config.add_route('olac.source', '/refdb_oai')
-    # config.add_route('languoids', '/languoids')
-    # config.add_route('ooalanguages', '/ooalanguages', factory=sample_factory)
-    # config.add_route('ooaunits', '/ooaunits')
-    # config.add_route('ooafeatures', '/ooafeatures')
-    #config.add_route('codes', '/domainelement')
     #
     # config.register_download(
     #     Matrix(Language, 'wals3', description="Feature values CSV"))

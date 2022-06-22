@@ -10,7 +10,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAUnit
+from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 
 
 # class FeatureIdCol(LinkCol):
@@ -112,7 +112,7 @@ class FeatureAreaCol(_AreaCol):
         return item.chapter.area.name
 
 
-class Features(datatables.Parameters):
+class Features(datatables.Unitparameters):
     # def base_query(self, query):
     #     return query.join(Chapter).join(Area)\
     #         .options(contains_eager(Feature.chapter, Chapter.area))
@@ -133,6 +133,17 @@ class Features(datatables.Parameters):
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
             Col(self, 'Datatype', model_col=OOAParameter.datatype),
+        ]
+
+
+class Featuresets(datatables.Parameters):
+    def col_defs(self):
+        return [
+            IdCol(self, 'id', sClass='left'),
+            Col(self, 'Domains', model_col=OOAFeatureSet.domains),
+            Col(self, 'Authors', model_col=OOAFeatureSet.authors),
+            Col(self, 'Contributors', model_col=OOAFeatureSet.contributors),
+            Col(self, 'Filename', model_col=OOAFeatureSet.filename),
         ]
 
 
@@ -228,4 +239,5 @@ def includeme(config):
     config.register_datatable('contributions', Chapters)
     config.register_datatable('ooaunits', Units)
     config.register_datatable('ooalanguages', Languages)
-    config.register_datatable('parameters', Features)
+    config.register_datatable('ooafeatures', Features)
+    config.register_datatable('ooafeaturesets', Featuresets)

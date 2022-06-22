@@ -44,9 +44,10 @@ def main(args):
     DBSession.flush()
 
     for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
-        data.add(models.OOAParameter, row["ParameterID"].replace(".", ""),
-                 id=row["ParameterID"].replace(".", ""),
+        data.add(models.OOAParameter, row["ParameterID"],
+                 id=row["ParameterID"],
                  #parameter_id=row["ParameterID"],
+                 unitparameter_pk=row["ParameterID"],
                  feature_set=row["FeatureSet"],
                  question=row["Question"],
                  datatype=row["datatype"],
@@ -87,8 +88,7 @@ def main(args):
                  parameter_pk=data['OOAParameter'][row['ParameterID'].replace(".", "")].pk)
     DBSession.flush()
 
-
-
+    # read value table
     for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
         data.add(models.OOAUnit, row["ID"],
                  id=row["ID"],
@@ -103,7 +103,20 @@ def main(args):
                  )
     DBSession.flush()
 
+    for row in tqdm(ds.iter_rows('contributors.csv'), desc="Processing contributors"):
+        data.add(common.Contributor, row["ContributorID"],
+                 id=row['ContributorID'],
+                 name=row['Name'],
+                 )
+
+    for row in tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets'):
+        data.add(models.OOAFeatureSet, row["FeatureSetID"],
+                 id=row['FeatureSetID'],
+                 name=row['Name'],
+                 domains=row['Domain'],
+                 authors=";".join(row['Authors']),
+                 contributors=";".join(row['Contributors'] or [""]),
+                 filename=row['Filename'] or ""
 
 
-# if __name__ == "__main__":
-#     main({})
+        )

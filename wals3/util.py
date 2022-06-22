@@ -118,8 +118,8 @@ def parameter_detail_kml(context=None, request=None, **kw):
     return dict(datapoints=_valuesets(context))
 
 
-def parameter_detail_html(context=None, request=None, **kw):
-    return dict(select=CombinationMultiSelect(request, selected=[context]))
+# def parameter_detail_html(context=None, request=None, **kw):
+#     return dict(select=CombinationMultiSelect(request, selected=[context]))
 
 
 def combination_detail_html(context=None, request=None, **kw):
@@ -140,3 +140,6 @@ def combination_detail_html(context=None, request=None, **kw):
 #     return {
 #         'ms' : MultiSelect(request, "values", 'values', collection=data)
 #     }
+
+# def codes_index_html(context):
+#     return context

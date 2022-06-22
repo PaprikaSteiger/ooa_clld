@@ -19,7 +19,9 @@ from clld.db.models.common import (
     Contribution,
     IdNameDescriptionMixin,
     ValueSet,
-    Unit
+    Unit,
+    Contributor,
+    UnitDomainElement
 )
 from wals3 import interfaces as wals_interfaces
 
@@ -120,20 +122,29 @@ class Chapter(CustomModelMixin, Contribution):
             yield 'dcterms:subject', self.area.dbpedia_url
 
 
-@implementer(interfaces.IParameter)
-class OOAParameter(CustomModelMixin, Parameter):
+@implementer(interfaces.IUnitDomainElement)
+class OOAParameter(CustomModelMixin, UnitDomainElement):
 
     """TODO"""
 
     #__table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
 
-    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
+    pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
     #parameter_id = Column(Unicode)
     feature_set = Column(Unicode)
     question = Column(Unicode)
     datatype = Column(Unicode)
     visualization = Column(Unicode)
 
+
+@implementer(interfaces.IParameter)
+class OOAFeatureSet(CustomModelMixin, Parameter):
+    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
+
+    domains = Column(Unicode)
+    authors = Column(Unicode)
+    contributors = Column(Unicode)
+    filename = Column(Unicode)
 # @implementer(interfaces.IParameter)
 # class Feature(CustomModelMixin, Parameter):
 #
@@ -164,9 +175,3 @@ class OOAUnit(CustomModelMixin, Unit):
     source = Column(Unicode, ForeignKey('source.pk'))
     coder = Column(Unicode)
 
-# #@implementer(interfaces.)
-# class OOACode(CustomModelMixin, ):
-#     pk = Column(Unicode, ForeignKey(''), primary_key=True)
-#     parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
-#     description = Column(Unicode)
-#     visualization = Column(Unicode)
