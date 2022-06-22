@@ -47,7 +47,7 @@ def main(args):
         data.add(models.OOAParameter, row["ParameterID"],
                  id=row["ParameterID"],
                  #parameter_id=row["ParameterID"],
-                 unitparameter_pk=row["ParameterID"],
+                 #unitparameter_pk=row["ParameterID"],
                  feature_set=row["FeatureSet"],
                  question=row["Question"],
                  datatype=row["datatype"],
@@ -112,6 +112,7 @@ def main(args):
     for row in tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets'):
         data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row['FeatureSetID'],
+                 unitparameter_pk=row['FeatureSetID'],
                  name=row['Name'],
                  domains=row['Domain'],
                  authors=";".join(row['Authors']),
