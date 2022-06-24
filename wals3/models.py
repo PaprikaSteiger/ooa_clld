@@ -122,14 +122,14 @@ class Chapter(CustomModelMixin, Contribution):
             yield 'dcterms:subject', self.area.dbpedia_url
 
 
-@implementer(interfaces.IUnitDomainElement)
-class OOAParameter(CustomModelMixin, UnitDomainElement):
+@implementer(interfaces.IParameter)
+class OOAParameter(CustomModelMixin, Parameter):
 
     """TODO"""
 
     #__table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
 
-    pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
+    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
     #parameter_id = Column(Unicode)
     feature_set = Column(Unicode)
     question = Column(Unicode)
