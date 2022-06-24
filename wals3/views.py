@@ -7,6 +7,7 @@ from clld.db.models.common import ValueSet, Source, Language, LanguageIdentifier
 from clld.db.util import icontains
 from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institution
 from clld.util import summary
+from clld.web import datatables
 
 from wals3.models import Family, Genus, OOALanguage, OOAUnit
 from wals3.util import LanguoidSelect
@@ -186,5 +187,7 @@ from wals3.util import LanguoidSelect
 
 @view_config(route_name='codes', renderer=r'codes/index_html.mako')
 def codes(req):
-    codes = req.db.query(DomainElement).all()
+    query = req.db.query(DomainElement)
+    codes = query.all()
+    # TODO: I want to return a Datatable to use ctx.render() in index_html
     return {'codes': codes}

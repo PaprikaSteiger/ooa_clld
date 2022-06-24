@@ -185,13 +185,13 @@ def main(global_config, **settings):
         (icons, IIconList),
     ]:
         config.registry.registerUtility(utility, interface)
-
+    # TODO: register_resource and add_route provoke pyramid.exceptions.ConfigurationConflictError: Conflicting configuration actions
     # config.register_resource('family', Family, IFamily, with_index=True)
     # config.register_resource('genus', Genus, IGenus, with_index=True)
     # config.register_resource('country', Country, ICountry)
     config.register_resource('ooalanguage', OOALanguage, ILanguage)
     config.register_resource('ooafeature', OOAParameter, IParameter)
-    config.register_resource('domainelement', DomainElement, IDomainElement)
+    config.register_resource('ooacodes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
     config.register_resource('ooafeatureset', OOAFeatureSet, IUnitParameter)
     # this should register the values template as an adapter for Iunit
@@ -205,6 +205,8 @@ def main(global_config, **settings):
     # config.add_route('languoids', '/languoids')
     # config.add_route('languages', '/ooalanguages', factory=sample_factory)
     # config.add_route('units', '/ooaunits')
+    # TODO: without those lines, KeyError: 'No such route named features'
+    # TODO: so what does settings even do?
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)
     config.add_route('featuresets', '/ooafeaturesets')
