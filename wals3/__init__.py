@@ -127,15 +127,16 @@ def codes_sample_factory(req):
     return Sample()
 
 
-def generic_sample(req, model):
+def featureset_sample_factory(req):
     class Sample(object):
-        data = req.db.query(model).all()
-            # .filter(col == true())\
-            # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
-            # .order_by(WalsLanguage.name)
+        featuresets = req.db.query(OOAFeatureSet).all()
+
+        # .filter(col == true())\
+        # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
+        # .order_by(WalsLanguage.name)
 
         def __json__(self, req):
-            return {'data': list(self.data)}
+            return {'req': req, 'featuresets': list(self.featuresets)}
 
     return Sample()
 
@@ -193,7 +194,7 @@ def main(global_config, **settings):
     config.register_resource('ooafeature', OOAParameter, IParameter)
     config.register_resource('ooacodes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
-    config.register_resource('featuresets', OOAFeatureSet, IUnitParameter)
+    config.register_resource('ooafeaturesets', OOAFeatureSet, IUnitParameter)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
@@ -209,7 +210,7 @@ def main(global_config, **settings):
     # TODO: so what does settings even do?
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)
-    #config.add_route('featuresets', '/ooafeaturesets')
+    config.add_route('featuresets', '/ooafeaturesets', factory=featureset_sample_factory)
     # for spec in [
     #     dict(
     #         template='parameter/detail_tab.mako',

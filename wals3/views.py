@@ -9,7 +9,7 @@ from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institut
 from clld.util import summary
 from clld.web import datatables
 
-from wals3.models import Family, Genus, OOALanguage, OOAUnit
+from wals3.models import Family, Genus, OOALanguage, OOAUnit, OOAFeatureSet
 from wals3.util import LanguoidSelect
 
 
@@ -191,3 +191,10 @@ from wals3.util import LanguoidSelect
 #     codes = query.all()
 #     # TODO: I want to return a Datatable to use ctx.render() in index_html
 #     return {'codes': codes}
+
+@view_config(route_name='featuresets', renderer=r'featuresets/index_html.mako')
+def codes(ctx, req):
+    query = req.db.query(OOAFeatureSet)
+    codes = query.all()
+    # TODO: I want to return a Datatable to use ctx.render() in index_html
+    return {'ctx': ctx, 'codes': codes}
