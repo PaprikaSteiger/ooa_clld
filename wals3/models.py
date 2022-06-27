@@ -131,11 +131,26 @@ class OOAParameter(CustomModelMixin, Parameter):
 
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
     #parameter_id = Column(Unicode)
-    feature_set = Column(Unicode)
+    feature_set = Column(Unicode) # Column(Integer, ForeignKey('featureset.pk'))
     question = Column(Unicode)
     datatype = Column(Unicode)
     visualization = Column(Unicode)
 
+# TODO: Implement featuresets like this
+# @implementer(wals_interfaces.IFeatureset)
+# class OOAFeatureSet((Base,
+#                PolymorphicBaseMixin,
+#                Versioned,
+#                IdNameDescriptionMixin,
+#                HasDataMixin,
+#                HasFilesMixin)):
+# TODO: add those functions for featureset
+# class ValueSet_data(Base, Versioned, DataMixin):
+#     pass
+#
+#
+# class ValueSet_files(Base, Versioned, FilesMixin):
+#     pass
 
 @implementer(interfaces.IUnitDomainElement)
 class OOAFeatureSet(CustomModelMixin, UnitDomainElement):

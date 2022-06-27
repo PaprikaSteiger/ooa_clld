@@ -13,14 +13,15 @@
     ## <li class="active">Genus: ${h.link(request, ctx.genus)}</li>
 </ul>
 
-<h2>Language ${ctx.name} - ${type(h)} - ${h}</h2>
+<h2>Language ${ctx.name} - ${type(ctx)} - ${h}</h2>
 <span class="badge">Glotto code: ${ctx.id}</span>
 ${ctx.pk}
 ${ctx.id}
-##${h.DBSession.query(OOAValue).render()}
-##${h.DBSession.query(OOAValue).all()}
-${request.get_datatable('ooaunits', OOAUnit, language_id=ctx.id).render()}
-${request.get_datatable('ooaunits', OOAUnit, language=ctx).render()}
+##${[v.language_id for v in h.DBSession.query(OOAValue).render()]}
+##${[v.language_id for v in h.DBSession.query(OOAUnit).all()]}
+${request.get_datatable('units', OOAUnit, language_id=ctx.id).render()}
+${request.get_datatable('units', OOAUnit, language=ctx).render()}
+${request.get_datatable('units', OOAUnit, language=ctx).get_query().all()}
 ##${request.get_datatable('values', h.models.Value, language=ctx).render()}
 
 <%def name="sidebar()">

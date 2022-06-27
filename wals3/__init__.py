@@ -193,7 +193,7 @@ def main(global_config, **settings):
     config.register_resource('ooafeature', OOAParameter, IParameter)
     config.register_resource('ooacodes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
-    config.register_resource('ooafeatureset', OOAFeatureSet, IUnitParameter)
+    config.register_resource('featuresets', OOAFeatureSet, IUnitParameter)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
@@ -209,7 +209,7 @@ def main(global_config, **settings):
     # TODO: so what does settings even do?
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)
-    config.add_route('featuresets', '/ooafeaturesets')
+    #config.add_route('featuresets', '/ooafeaturesets')
     # for spec in [
     #     dict(
     #         template='parameter/detail_tab.mako',

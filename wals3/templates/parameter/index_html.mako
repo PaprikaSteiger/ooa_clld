@@ -11,6 +11,7 @@
     ##on the maps. Most features correspond straightforwardly to chapters, but some chapters are
     ##about multiple features.
 </p>
+${type(ctx)}
 <div class="clearfix"> </div>
 ${ctx.render()}
 

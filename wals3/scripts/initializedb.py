@@ -91,9 +91,12 @@ def main(args):
     # read value table
     for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
         data.add(models.OOAUnit, row["ID"],
+                 # TODO: this would be the way to refer to another resource from a table
+                 # parameter = relationship('Parameter', innerjoin=True, backref='valuesets')
+                 # then accessable via self.parameter.(...)
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
-                 language_id=row["LanguageID"],
+                 language_id=row["LanguageID"], # TODO: don't do this, acces language table via language_pk to display languages
                  parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
                  code_id=row["CodeID"] or "",
                  value=row["Value"],

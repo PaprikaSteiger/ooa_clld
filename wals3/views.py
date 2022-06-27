@@ -185,9 +185,9 @@ from wals3.util import LanguoidSelect
 # def olac_source(req):
 #     return olac_with_cfg(req, OlacConfigSource())
 
-@view_config(route_name='codes', renderer=r'codes/index_html.mako')
-def codes(req):
-    query = req.db.query(DomainElement)
-    codes = query.all()
-    # TODO: I want to return a Datatable to use ctx.render() in index_html
-    return {'codes': codes}
+# @view_config(route_name='codes', renderer=r'codes/index_html.mako')
+# def codes(req):
+#     query = req.db.query(DomainElement)
+#     codes = query.all()
+#     # TODO: I want to return a Datatable to use ctx.render() in index_html
+#     return {'codes': codes}

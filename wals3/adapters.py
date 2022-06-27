@@ -15,7 +15,7 @@ from clld.db.models.common import (
     Value, DomainElement, ValueSet, Language, Parameter, LanguageIdentifier,
 )
 
-from wals3.models import Genus, OOALanguage
+from wals3.models import Genus, OOALanguage, OOAParameter
 
 # TODO: DOcumentation
 # https://muthukadan.net/docs/zca.html#adapters
@@ -184,8 +184,26 @@ class WalsCldfConfig(CldfConfig):
         return res
 
 
+class ParameterTab(Index):
+    extension = str('tab')
+    mimetype = str('text/vnd.clld.text+tsv')
+    send_mimetype = str('text/plain')
+
+    def render(self, ctx, req):
+        fields = [
+            ('id', lambda l: l.id),
+            ('featureset', lambda l: l.feature_set),
+            ('question', lambda l: l.question),
+            ('visualization', lambda l: l.visualization),
+            ('datatype', lambda l: l.datatype),
+        ]
+        lines = [[f[0] for f in fields]]
+        for lang in DBSession.query(OOAParameter):
+            lines.append([f[1](lang) for f in fields])
+        return '\n'.join('\t'.join(['%s' % l for l in line]) for line in lines)
+
 def includeme(config):
     config.registry.registerUtility(WalsCldfConfig(), ICldfConfig)
-    config.register_adapter(GeoJsonFeature, IParameter)
+    config.register_adapter(ParameterTab, IParameter, IIndex)
     config.register_adapter(MapView, ILanguage, IIndex)
     config.register_adapter(LanguagesTab, ILanguage, IIndex)
