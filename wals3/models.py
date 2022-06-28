@@ -152,10 +152,9 @@ class OOAParameter(CustomModelMixin, Parameter):
 # class ValueSet_files(Base, Versioned, FilesMixin):
 #     pass
 
-@implementer(interfaces.IUnitDomainElement)
+@implementer(wals_interfaces.IFeatureSet)
 class OOAFeatureSet(CustomModelMixin, UnitDomainElement):
     pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
-
     domains = Column(Unicode)
     authors = Column(Unicode)
     contributors = Column(Unicode)

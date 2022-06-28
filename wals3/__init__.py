@@ -20,7 +20,7 @@ from clld.db.models.common import Contribution, ContributionReference, Parameter
 
 from wals3.adapters import Matrix
 from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
-from wals3.interfaces import IFamily, ICountry, IGenus
+from wals3.interfaces import IFamily, ICountry, IGenus, IFeatureSet
 from wals3.datatables import Featuresets
 
 COLORS = [
@@ -128,15 +128,15 @@ def codes_sample_factory(req):
     return Sample()
 
 
-def featureset_sample_factory(req: ClldRequest):
-    class Sample(object):
-        featuresets = req.db.query(OOAFeatureSet).all()
-        table = req.get_datatable(name='featuresets', model=OOAFeatureSet)
-
-        def __json__(self, req):
-            return {'req': req, 'featuresets': list(self.featuresets), 'table': self.table}
-
-    return Sample()
+# def featureset_sample_factory(req: ClldRequest):
+#     class Sample(object):
+#         featuresets = req.db.query(OOAFeatureSet).all()
+#         table = req.get_datatable(name='featuresets', model=OOAFeatureSet)
+#
+#         def __json__(self, req):
+#             return {'req': req, 'featuresets': list(self.featuresets), 'table': self.table}
+#
+#     return Sample()
 
 class WalsIcon(Icon):
     def url(self, req):
@@ -192,7 +192,7 @@ def main(global_config, **settings):
     config.register_resource('ooafeature', OOAParameter, IParameter)
     config.register_resource('ooacodes', DomainElement, IDomainElement)
     config.register_resource('ooaunit', OOAUnit, IUnit)
-    config.register_resource('ooafeaturesets', OOAFeatureSet, IUnitParameter)
+    config.register_resource('ooafeaturesets', OOAFeatureSet, IFeatureSet)
     # this should register the values template as an adapter for Iunit
     # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
     # config.add_route(
@@ -208,7 +208,7 @@ def main(global_config, **settings):
     # TODO: so what does settings even do?
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)
-    config.add_route('featuresets', '/ooafeaturesets', factory=featureset_sample_factory)
+    config.add_route('featuresets', '/ooafeaturesets',)
     # this is required to display the featuresets as they are mapped to unitdomainelements
     config.add_route('unitdomainelements', '/ooafeaturesets')
     # for spec in [

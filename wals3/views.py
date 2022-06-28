@@ -193,8 +193,8 @@ from wals3.util import LanguoidSelect
 #     return {'codes': codes}
 
 @view_config(route_name='featuresets', renderer=r'featuresets/index_html.mako')
-def codes(ctx, req):
-    query = req.db.query(OOAFeatureSet)
-    codes = query.all()
-    # TODO: I want to return a Datatable to use ctx.render() in index_html
-    return {'ctx': ctx, 'codes': codes}
+def featuresets(ctx, req):
+    table = req.get_datatable('featuresets', OOAFeatureSet)
+    # query = req.get_datatable('featuresets', OOAFeatureSet)
+    # codes = query.all()
+    return {'ctx': ctx, 'table': table}

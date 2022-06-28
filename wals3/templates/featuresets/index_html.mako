@@ -10,4 +10,4 @@ ${type(table)}
     Those are the OOA Codes
 </p>
 <div class="clearfix"> </div>
-${ctx.table.render()}
+${table.render()}
