@@ -3,9 +3,11 @@
 <%! active_menu_item = "codes" %>
 <%block name="title">Codes</%block>
 ${type(ctx)}
+${type(req)}
+${type(table)}
 <h2>Featureseets</h2>
 <p>
     Those are the OOA Codes
 </p>
 <div class="clearfix"> </div>
-${codes}
+${ctx.table.render()}

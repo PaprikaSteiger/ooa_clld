@@ -15,12 +15,13 @@ from clld.interfaces import (
 from clld.web.adapters.download import Download
 from clld.web.adapters.base import adapter_factory
 from clld.web.icon import Icon
-from clld.web.app import CtxFactoryQuery
+from clld.web.app import CtxFactoryQuery, ClldRequest
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
 
 from wals3.adapters import Matrix
 from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 from wals3.interfaces import IFamily, ICountry, IGenus
+from wals3.datatables import Featuresets
 
 COLORS = [
     '00d', '000', '6f3', '9ff', '090', '99f', '909', 'a00', 'ccc', 'd00', 'f6f', 'f40', 'f60',
@@ -127,16 +128,13 @@ def codes_sample_factory(req):
     return Sample()
 
 
-def featureset_sample_factory(req):
+def featureset_sample_factory(req: ClldRequest):
     class Sample(object):
         featuresets = req.db.query(OOAFeatureSet).all()
-
-        # .filter(col == true())\
-        # .options(joinedload(WalsLanguage.genus).joinedload(Genus.family))\
-        # .order_by(WalsLanguage.name)
+        table = req.get_datatable(name='featuresets', model=OOAFeatureSet)
 
         def __json__(self, req):
-            return {'req': req, 'featuresets': list(self.featuresets)}
+            return {'req': req, 'featuresets': list(self.featuresets), 'table': self.table}
 
     return Sample()
 
@@ -211,6 +209,8 @@ def main(global_config, **settings):
     config.add_route('features', '/ooafeatures')
     config.add_route('codes', '/domainelement', factory=codes_sample_factory)
     config.add_route('featuresets', '/ooafeaturesets', factory=featureset_sample_factory)
+    # this is required to display the featuresets as they are mapped to unitdomainelements
+    config.add_route('unitdomainelements', '/ooafeaturesets')
     # for spec in [
     #     dict(
     #         template='parameter/detail_tab.mako',

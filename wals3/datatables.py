@@ -137,6 +137,9 @@ class Features(datatables.Parameters):
 
 
 class Featuresets(datatables.Unitparameters):
+    def base_query(self, query):
+        return query(OOAFeatureSet)
+
     def col_defs(self):
         return [
             IdCol(self, 'id', sClass='left'),
