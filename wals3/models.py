@@ -12,7 +12,6 @@ from sqlalchemy.orm import relationship, backref
 
 from clld import interfaces
 from clld.db.meta import Base, CustomModelMixin
-from clld.db.models import HasDataMixin, HasFilesMixin, PolymorphicBaseMixin
 from clld.db.models.common import (
     Language,
     Parameter,
@@ -138,7 +137,13 @@ class OOAParameter(CustomModelMixin, Parameter):
     visualization = Column(Unicode)
 
 # TODO: Implement featuresets like this
-
+# @implementer(wals_interfaces.IFeatureset)
+# class OOAFeatureSet((Base,
+#                PolymorphicBaseMixin,
+#                Versioned,
+#                IdNameDescriptionMixin,
+#                HasDataMixin,
+#                HasFilesMixin)):
 # TODO: add those functions for featureset
 # class ValueSet_data(Base, Versioned, DataMixin):
 #     pass
@@ -147,15 +152,10 @@ class OOAParameter(CustomModelMixin, Parameter):
 # class ValueSet_files(Base, Versioned, FilesMixin):
 #     pass
 
-@implementer(wals_interfaces.IFeatureset)
-class OOAFeatureSet((Base,
-               PolymorphicBaseMixin,
-               IdNameDescriptionMixin,
-               HasDataMixin,
-               HasFilesMixin)):
-    pk = Column(Integer, primary_key=True)
-    id = Column(Unicode)
-    name = Column(Unicode)
+@implementer(interfaces.IUnitDomainElement)
+class OOAFeatureSet(CustomModelMixin, UnitDomainElement):
+    pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
+
     domains = Column(Unicode)
     authors = Column(Unicode)
     contributors = Column(Unicode)
