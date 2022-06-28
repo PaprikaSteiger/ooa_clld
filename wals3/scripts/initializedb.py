@@ -115,12 +115,9 @@ def main(args):
     for row in tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets'):
         data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row['FeatureSetID'],
-                 unitparameter_pk=row['FeatureSetID'],
                  name=row['Name'],
                  domains=row['Domain'],
                  authors=";".join(row['Authors']),
                  contributors=";".join(row['Contributors'] or [""]),
                  filename=row['Filename'] or ""
-
-
         )

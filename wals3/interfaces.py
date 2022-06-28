@@ -14,3 +14,9 @@ class IGenus(Interface):
 class ICountry(Interface):
 
     """marker."""
+
+
+class IFeatureSet(Interface):
+
+    """marker."""
+
