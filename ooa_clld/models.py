@@ -23,7 +23,7 @@ from clld.db.models.common import (
     Contributor,
     UnitDomainElement
 )
-from wals3 import interfaces as wals_interfaces
+from ooa_clld import interfaces as wals_interfaces
 
 
 ValueSet.wp_slug = property(lambda self: 'datapoint-%s-wals_code_%s' % (

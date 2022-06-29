@@ -9,8 +9,8 @@ from clld.web.views.olac import OlacConfig, olac_with_cfg, Participant, Institut
 from clld.util import summary
 from clld.web import datatables
 
-from wals3.models import Family, Genus, OOALanguage, OOAUnit, OOAFeatureSet
-from wals3.util import LanguoidSelect
+from ooa_clld.models import Family, Genus, OOALanguage, OOAUnit, OOAFeatureSet
+from ooa_clld.util import LanguoidSelect
 
 
 # @view_config(route_name='ooavalues', renderer='json')

@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='wals3',
+    name='ooa_clld',
     version='0.0',
-    description='wals3',
+    description='ooa_clld',
     long_description='',
     classifiers=[
         "Programming Language :: Python",
@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    test_suite='wals3',
+    test_suite='ooa_clld',
     install_requires=[
         'tqdm',
         'clld>=8.0.0',
@@ -49,7 +49,7 @@ setup(
     },
     entry_points={
         'paste.app_factory': [
-            'main = wals3:main',
+            'main = ooa_clld:main',
         ],
     },
 )

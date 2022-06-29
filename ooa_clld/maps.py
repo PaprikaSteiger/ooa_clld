@@ -1,7 +1,7 @@
 from clld.web.maps import ParameterMap, Map, Layer, CombinationMap
 from clld.web.util.helpers import JS, map_marker_img
 
-from wals3.adapters import GeoJsonLects
+from ooa_clld.adapters import GeoJsonLects
 
 
 class FeatureMap(ParameterMap):

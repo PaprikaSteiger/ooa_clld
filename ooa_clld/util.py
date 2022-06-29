@@ -14,8 +14,8 @@ from clld.web.util.helpers import get_referents, JS
 from clld.web.util.multiselect import MultiSelect, CombinationMultiSelect
 from clld.web.icon import ICON_MAP
 
-import wals3
-from wals3.models import Genus, OOALanguage, OOAUnit, OOAParameter
+import ooa_clld
+from ooa_clld.models import Genus, OOALanguage, OOAUnit, OOAParameter
 
 
 class LanguoidSelect(MultiSelect):

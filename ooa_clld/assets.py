@@ -2,9 +2,9 @@ import pathlib
 
 from clld.web.assets import environment
 
-import wals3
+import ooa_clld
 
 
 environment.append_path(
-    str(pathlib.Path(wals3.__file__).parent.joinpath('static')), url='/wals3:static/')
+    str(pathlib.Path(ooa_clld.__file__).parent.joinpath('static')), url='/ooa_clld:static/')
 environment.load_path = list(reversed(environment.load_path))
