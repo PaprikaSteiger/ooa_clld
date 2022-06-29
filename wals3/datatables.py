@@ -177,7 +177,7 @@ class Units(Units):
 
     def base_query(self, query):
         if self.language:
-            query = query.joinedload(OOALanguage, self.language_pk == self.language.pk)
+            query = query.join(OOALanguage, self.language_pk == self.language.pk)
         return query
 
     def col_defs(self):
