@@ -15,7 +15,7 @@ from clld.db.models.common import (
     Value, DomainElement, ValueSet, Language, Parameter, LanguageIdentifier,
 )
 
-from wals3.models import Genus, OOALanguage, OOAParameter
+from ooa_clld.models import Genus, OOALanguage, OOAParameter
 
 # TODO: DOcumentation
 # https://muthukadan.net/docs/zca.html#adapters

@@ -1,11 +1,11 @@
-# English translations for wals3.
+# English translations for ooa_clld.
 # Copyright (C) 2021 ORGANIZATION
-# This file is distributed under the same license as the wals3 project.
+# This file is distributed under the same license as the ooa_clld project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: wals3 0.0\n"
+"Project-Id-Version: ooa_clld 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-16 15:02+0100\n"
 "PO-Revision-Date: 2021-03-16 15:02+0100\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: wals3/__init__.py:31
+#: ooa_clld/__init__.py:31
 msgid "Contributions"
 msgstr "Chapters"
 
-#: wals3/__init__.py:32
+#: ooa_clld/__init__.py:32
 msgid "Contributors"
 msgstr "Authors"
 
-#: wals3/__init__.py:33
+#: ooa_clld/__init__.py:33
 msgid "Contributor"
 msgstr "Author"
 
-#: wals3/__init__.py:34
+#: ooa_clld/__init__.py:34
 msgid "Sources"
 msgstr "References"
 
-#: wals3/__init__.py:35
+#: ooa_clld/__init__.py:35
 msgid "Source"
 msgstr "Reference"
 
-#: wals3/__init__.py:36
+#: ooa_clld/__init__.py:36
 msgid "Parameters"
 msgstr "Features"
 
-#: wals3/__init__.py:37
+#: ooa_clld/__init__.py:37
 msgid "Parameter"
 msgstr "Feature"
 
-#: wals3/__init__.py:38
+#: ooa_clld/__init__.py:38
 msgid "ValueSets"
 msgstr "Datapoints"
 
-#: wals3/__init__.py:39
+#: ooa_clld/__init__.py:39
 msgid "Sentences"
 msgstr "Examples"
 

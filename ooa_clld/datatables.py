@@ -10,7 +10,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from wals3.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
+from ooa_clld.models import Genus, Family, Chapter, Area, Country, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 
 
 # class FeatureIdCol(LinkCol):

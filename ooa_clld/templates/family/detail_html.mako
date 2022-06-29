@@ -4,7 +4,7 @@
 <%block name="title">Family ${ctx.name}</%block>
 
 <%! from sqlalchemy.orm import joinedload %>
-<%! from wals3.models import Genus %>
+<%! from ooa_clld.models import Genus %>
 
 <ul class="nav nav-pills pull-right">
     <li><a href="#map-container">Map</a></li>

@@ -18,10 +18,10 @@ from clld.web.icon import Icon
 from clld.web.app import CtxFactoryQuery, ClldRequest
 from clld.db.models.common import Contribution, ContributionReference, Parameter, Language, Source, DomainElement
 
-from wals3.adapters import Matrix
-from wals3.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
-from wals3.interfaces import IFamily, ICountry, IGenus, IFeatureSet
-from wals3.datatables import Featuresets
+from ooa_clld.adapters import Matrix
+from ooa_clld.models import Family, Country, Genus, OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
+from ooa_clld.interfaces import IFamily, ICountry, IGenus, IFeatureSet
+from ooa_clld.datatables import Featuresets
 
 COLORS = [
     '00d', '000', '6f3', '9ff', '090', '99f', '909', 'a00', 'ccc', 'd00', 'f6f', 'f40', 'f60',
@@ -315,10 +315,5 @@ def main(global_config, **settings):
     # config.add_410('/languoid/osd.{ext}')
     # config.add_410("/experimental/{id}")
     #
-    #
-    # config.register_download(
-    #     Matrix(Language, 'wals3', description="Feature values CSV"))
-    # config.register_download(
-    #     Download(Source, 'wals3', ext='bib', description="Sources as BibTeX"))
 
     return config.make_wsgi_app()

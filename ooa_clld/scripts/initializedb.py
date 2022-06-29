@@ -11,16 +11,15 @@ from clld.db.meta import DBSession
 from clld.db.models import common
 from clld.lib.bibtex import Database
 
-from wals3 import models
+from ooa_clld import models
+
 
 def main(args):
-    cldf_dir = Path(r"C:\Users\steig\Desktop\outofasia\wals3\cldf")
-    #args.log.info('Loading dataset')
-    ds = list(pycldf.iter_datasets(cldf_dir))[0]
+    ds = args.cldf
     data = Data()
 
     dataset = common.Dataset(
-        id='wals',
+        id='ooa_clld',
         name='WALS Online',
         description=ds.properties['dc:title'],
         published=datetime.date(2013, 8, 15),
@@ -28,7 +27,7 @@ def main(args):
         publisher_place="Leipzig",
         publisher_url="https://www.eva.mpg.de",
         license=ds.properties['dc:license'],
-        contact='wals@shh.mpg.de',
+        contact='',
         jsondata={
             'license_icon': 'cc-by.png',
             'license_name':
