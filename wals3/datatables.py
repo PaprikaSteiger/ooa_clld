@@ -173,18 +173,19 @@ class Languages(datatables.Languages):
         ]
 
 
-# class Units(Units):
-#
-#     # def base_query(self, query):
-#     #     query = query.join(OOALanguage, OOAUnit.language_id == OOALanguage.id)
-#     #     return query
-#
-#     def col_defs(self):
-#         return [
-#             IdCol(self, 'id', sTitle='id'),
-#             Col(self, 'parameter_id', model_col=OOAUnit.parameter_id),
-#             Col(self, 'language_id', model_col=OOAUnit.language_pk)
-#         ]
+class Units(Units):
+
+    def base_query(self, query):
+        if self.language:
+            query = query.joinedload(OOALanguage, self.language_pk == self.language.pk)
+        return query
+
+    def col_defs(self):
+        return [
+            IdCol(self, 'id', sTitle='id'),
+            Col(self, 'parameter_id', model_col=OOAUnit.parameter_id),
+            Col(self, 'language_id', model_col=OOAUnit.language_pk)
+        ]
 # class Languages(datatables.Languages):
 #     def base_query(self, query):
 #         return query.join(Genus).join(Family).options(

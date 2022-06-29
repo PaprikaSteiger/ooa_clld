@@ -19,9 +19,9 @@ ${ctx.pk}
 ${ctx.id}
 ##${[v.language_id for v in h.DBSession.query(OOAValue).render()]}
 ##${[v.language_id for v in h.DBSession.query(OOAUnit).all()]}
-${request.get_datatable('units', OOAUnit, language_id=ctx.id).render()}
+##${request.get_datatable('units', OOAUnit, language_id=ctx.id).render()}
 ${request.get_datatable('units', OOAUnit, language=ctx).render()}
-${request.get_datatable('units', OOAUnit, language=ctx).get_query().all()}
+##${request.get_datatable('units', OOAUnit, language=ctx).get_query().all()}
 ##${request.get_datatable('values', h.models.Value, language=ctx).render()}
 
 <%def name="sidebar()">

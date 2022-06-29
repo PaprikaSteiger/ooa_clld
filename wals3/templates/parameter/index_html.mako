@@ -20,5 +20,5 @@ ${ctx.render()}
     ##    $("#${ms.eid}").on("select2-selecting", function(e) {
     ##        document.location.href = '${ms.url}?id=' + e.val;
     ##    });
-    });
+    ##});
 </script>
