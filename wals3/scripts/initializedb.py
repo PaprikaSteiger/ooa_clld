@@ -14,7 +14,7 @@ from clld.lib.bibtex import Database
 from wals3 import models
 
 def main(args):
-    cldf_dir = Path(r"C:\Users\steig\Desktop\outofasia\wals3\cldf")
+    cldf_dir = Path(__file__).parent.parent.parent / "cldf"
     #args.log.info('Loading dataset')
     ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
