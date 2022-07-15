@@ -185,7 +185,7 @@ from wals3.util import LanguoidSelect
 # def olac_source(req):
 #     return olac_with_cfg(req, OlacConfigSource())
 
-# @view_config(route_name='codes', renderer=r'codes/index_html.mako')
+# @view_config(route_name='codes', renderer=r'codes/lib.mako')
 # def codes(req):
 #     query = req.db.query(DomainElement)
 #     codes = query.all()

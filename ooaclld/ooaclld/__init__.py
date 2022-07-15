@@ -4,11 +4,15 @@ from pyramid.config import Configurator
 
 from clld_glottologfamily_plugin import util
 
-from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement
+from clldutils import svg
+from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement, ILanguage, IParameter
 from clldutils.svg import pie, icon, data_url
+from clld.web.adapters.base import adapter_factory
+from clld.web.app import ClldRequest
 
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
+from ooaclld.interfaces import IFeatureSet
 
 
 def map_marker(ctx, req):
@@ -52,6 +56,16 @@ class LanguageByFamilyMapMarker(util.LanguageByFamilyMapMarker):
         return super(LanguageByFamilyMapMarker, self).__call__(ctx, req)
 
 
+def featureset_sample_factory(req: ClldRequest):
+    class Sample(object):
+        featuresets = req.db.query(models.OOAFeatureSet).all()
+        table = req.get_datatable(name='featuresets', model=models.OOAFeatureSet)
+
+        def __json__(self, req):
+            return {'req': req, 'featuresets': list(self.featuresets), 'table': self.table}
+
+    return Sample()
+
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
@@ -71,10 +85,15 @@ def main(global_config, **settings):
         'unit': r'/ooaunits/{id}'
     }
     config = Configurator(settings=settings)
+
     config.include('clld.web.app')
 
     config.include('clldmpg')
 
+    config.register_resource('ooafeaturesets', models.OOAFeatureSet, IFeatureSet)
+    config.add_route('featuresets', '/ooafeaturesets', factory=featureset_sample_factory)
+    config.register_adapter(adapter_factory('featuresets/lib.mako'), IFeatureSet)
+    #config.register_adapter(adapter_factory('language/lib.mako'), ILanguage)
 
     config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 

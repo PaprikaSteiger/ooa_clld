@@ -194,7 +194,7 @@ def main(global_config, **settings):
     config.register_resource('ooaunit', OOAUnit, IUnit)
     config.register_resource('ooafeaturesets', OOAFeatureSet, IFeatureSet)
     # this should register the values template as an adapter for Iunit
-    # config.register_adapter(adapter_factory('values/index_html.mako'), IUnit)
+    # config.register_adapter(adapter_factory('values/lib.mako'), IUnit)
     # config.add_route(
     #     'sample_alt', '/languoid/samples/{count}.{ext}', factory=sample_factory)
     # config.add_route(
