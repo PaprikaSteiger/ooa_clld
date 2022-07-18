@@ -38,9 +38,6 @@ class Features(datatables.Parameters):
 
 
 class Featuresets(datatables.Unitparameters):
-    def base_query(self, query):
-        return query(OOAFeatureSet)
-
     def col_defs(self):
         return [
             IdCol(self, 'id', sClass='left'),
@@ -52,9 +49,6 @@ class Featuresets(datatables.Unitparameters):
 
 
 class Languages(datatables.Languages):
-    def base_query(self, query):
-        return query
-
     def col_defs(self):
         return [
             IdCol(self, 'id', sTitle='glottocode', sClass='left'),
@@ -102,15 +96,8 @@ class Units(Units):
 
 def includeme(config):
     # the name of the datatable must be the same as the name given to the route pattern
-    config.register_datatable('contributions', Chapters)
     config.register_datatable('units', Units)
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)
     config.register_datatable('featuresets', Featuresets)
 
-
-
-def includeme(config):
-    """register custom datatables"""
-
-    config.register_datatable('languages', Languages)
